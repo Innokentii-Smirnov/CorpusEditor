@@ -20,7 +20,8 @@ if not path.exists(input_directory):
     print('Input directory not found: ' + input_directory)
     exit()
 if output_directory != input_directory:
-    shutil.rmtree(output_directory)
+    if path.exists(output_directory):
+        shutil.rmtree(output_directory)
     os.makedirs(output_directory)
 with open(changes_file, 'r', encoding='utf-8') as fin:
     changesJson = json.load(fin)
