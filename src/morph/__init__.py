@@ -42,10 +42,15 @@ class SingleMorph(Morph):
     
     def __eq__(self, other):
         if super().__eq__(other):
-            if (isinstance(other, MultiMorph) and other.is_singletone):
-                return self.morph_tag == next(iter(other.morph_tags.values()))
+            if isinstance(other, MultiMorph):
+                if other.is_singletone:
+                    return self.morph_tag == next(iter(other.morph_tags.values()))
+                else:
+                    return false
             else:
                 return self.morph_tag == other.morph_tag
+        else:
+            return false
     
     @property
     def morph_info(self):
@@ -68,6 +73,15 @@ class MultiMorph(Morph):
                  det: str):
         super().__init__(translation, segmentation, pos, det)
         self.morph_tags = morph_tags
+    
+    def __eq__(self, other):
+        if super().__eq__(other):
+            if isinstance(other, SingleMorph):
+                return self.is_singletone and next(iter(self.morph_tags.values())) == other.morph_tag
+            else:
+                return self.morph_tags == other.morph_tags
+        else:
+            return false
     
     @property
     def morph_info(self) -> str:
