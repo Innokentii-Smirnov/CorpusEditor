@@ -4,7 +4,7 @@ from os import path
 import shutil
 from tqdm.auto import tqdm
 from bs4 import BeautifulSoup
-from soup_modifier import modify_soup
+from soup_modifier import SoupModifier
 
 with open('config.json', 'r', encoding='utf-8') as fin:
     config = json.load(fin)
@@ -22,12 +22,14 @@ if not path.exists(input_directory):
 if output_directory != input_directory:
     shutil.rmtree(output_directory)
     os.makedirs(output_directory)
-with open(config['changesFile'], 'r', encoding='utf-8') as fin:
+with open(changes_file, 'r', encoding='utf-8') as fin:
     changesJson = json.load(fin)
-    changes = changesJson['changes']
+changes = changesJson['changes']
+modifier = SoupModifier(changes)
 walk = list(os.walk(config['inputDirectory']))
 progress_bar = tqdm(walk)
-with open('Modified files.txt', 'w', encoding='utf-8') as log:
+with (open('Modified files.txt', 'w', encoding='utf-8') as modified_files,
+      open('Log.txt', 'w', encoding='utf-8') as log):
     for dirpath, dirnames, filenames in progress_bar:
         _, folder = path.split(dirpath)
         if folder != 'Backup':
@@ -39,16 +41,16 @@ with open('Modified files.txt', 'w', encoding='utf-8') as log:
                     fullname = path.join(dirpath, filename)
                     with open(fullname, 'r', encoding='utf-8') as fin:
                         file_text = fin.read()
-                    if any(key in file_text for key in changes):
-                        soup = BeautifulSoup(file_text, 'lxml')
-                        modify_soup(soup, changes)
+                    soup = BeautifulSoup(file_text, 'lxml')
+                    modified = modifier(soup, log.write)
+                    if modified:
                         outfile = path.join(output_subdirectory, filename)
                         if not path.exists(output_subdirectory):
                             os.makedirs(output_subdirectory)
                         with open(outfile, 'w', encoding='utf-8') as fout:
                             outfile_text = str(soup)
                             fout.write(outfile_text)
-                        log.write(outfile + '\n')
+                        modified_files.write('{0:8} {1}\n'.format(folder, text_name))
 
 
 

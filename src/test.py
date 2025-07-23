@@ -1,0 +1,9 @@
+from morph import parseMorph
+print('Test started')
+m1 = parseMorph('nāli @ Rehbock @ .ABS @ noun @ ')
+print(m1)
+m2 = parseMorph('nāli@Rehbock@{ a → .ABS}@noun@')
+print(m2)
+print(m1 == m2)
+print(m1.__hash__())
+print(m2.__hash__())
