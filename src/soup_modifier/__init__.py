@@ -1,5 +1,5 @@
 from bs4 import BeautifulSoup
-from morph import Morph, parseMorph
+from morph import Morph, MultiMorph, parseMorph
 from typing import Callable
 
 class SoupModifier:
@@ -31,12 +31,15 @@ class SoupModifier:
                     if attr.startswith('mrp') and attr != 'mrp0sel':
                         morph = parseMorph(value)
                         if morph in self.changes:
-                            replacement = self.changes[morph].__str__()
-                            tag[attr] = replacement
+                            replacement = self.changes[morph]
+                            if isinstance(morph, MultiMorph):
+                                replacement = replacement.to_multi()
+                            repl_str = replacement.__str__()
+                            tag[attr] = repl_str
                             if not modified:
                                 logging_function(publ + '\n')
                             modified = True
                             logging_function(
-                                '\t{0:10} {1:45} {2}\n'.format(lnr, value, replacement)
+                                '\t{0:10} {1:45} {2}\n'.format(lnr, value, repl_str)
                             )
         return modified

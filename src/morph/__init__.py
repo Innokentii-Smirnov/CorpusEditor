@@ -53,6 +53,10 @@ class SingleMorph(Morph):
     
     def __hash__(self):
         return self.__tuple__().__hash__()
+        
+    def to_multi(self):
+        return MultiMorph(self.segmentation, self.translation,
+            {'a': self.morph_tag}, self.pos, self.det)
 
 class MultiMorph(Morph):
     
