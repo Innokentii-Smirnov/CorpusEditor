@@ -14,7 +14,7 @@ class SoupModifier:
 
     def __call__(self, soup: BeautifulSoup, logging_function: Callable[[str], None]) -> bool:
         lang = 'hit'
-        publ = soup.find('ao:txtpubl').text
+        publ = soup.find('AO:TxtPubl').text
         modified = False
         for tag in soup(['lb', 'w']):
             if tag.name == 'lb':

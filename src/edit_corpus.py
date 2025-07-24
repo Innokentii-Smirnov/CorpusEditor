@@ -42,7 +42,7 @@ with (open('Modified files.txt', 'w', encoding='utf-8') as modified_files,
                     fullname = path.join(dirpath, filename)
                     with open(fullname, 'r', encoding='utf-8') as fin:
                         file_text = fin.read()
-                    soup = BeautifulSoup(file_text, 'lxml')
+                    soup = BeautifulSoup(file_text, 'xml')
                     modified = modifier(soup, log.write)
                     if modified:
                         outfile = path.join(output_subdirectory, filename)
