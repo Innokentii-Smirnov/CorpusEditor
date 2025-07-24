@@ -21,7 +21,7 @@ class Morph:
         raise NotImplementedError
     
     def __tuple__(self):
-        return self.translation, self.segmentation, self.morph_info, self.pos, self.det
+        return self.segmentation, self.translation, self.morph_info, self.pos, self.det
     
     def __str__(self):
         return ' @ '.join(self.__tuple__())
