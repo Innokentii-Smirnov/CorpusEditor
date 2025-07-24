@@ -8,9 +8,12 @@ Remember that backslashes should be escaped (prefixed with another backslash) in
 The input and output directory can be the same, which means the files will be overwritten.
 The changes file can be any JSON file which stores a replacement dictionary in the field "changes".
 
-# Warning
-If the output directory is distinct from the input directory, the program
-will delete its contents entirely before starting to process the files.
+# Input and output files
+If the output directory contains files whose names are the same as the
+names of some files in the input directory, the files in the output directory
+will be used as input, since they are assumed to be the up-to-date version.
+The input files with such names are ignored.
+Here, the names including subdirectories are meant.
 
 # Usage
 Run the script "CorpusEditor.bat" to run the application.
