@@ -28,3 +28,12 @@ in the file explorer.
 If clicking does not work, start the command line,
 navigate to the containing directory of the .bat file
 and type the name of the file (e. g. install.bat), then click "Enter".
+
+# Logging
+The program will create two log files in its topmost directory.
+The first, "Modified files.txt", contains only the names of the files
+that have been changed.
+The second, "Log.txt", lists the numbers of modified lines 
+(lines in the text, not in the XML file are meant) and
+the mophological analyses which have been replaced
+(with the replacement on the right) for each file.
