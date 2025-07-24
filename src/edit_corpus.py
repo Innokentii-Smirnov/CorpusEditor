@@ -19,10 +19,7 @@ if not path.exists(changes_file):
 if not path.exists(input_directory):
     print('Input directory not found: ' + input_directory)
     exit()
-if output_directory != input_directory:
-    if path.exists(output_directory):
-        shutil.rmtree(output_directory)
-    os.makedirs(output_directory)
+os.makedirs(output_directory, exist_ok=True)
 with open(changes_file, 'r', encoding='utf-8') as fin:
     changesJson = json.load(fin)
 changes = changesJson['changes']
@@ -39,15 +36,17 @@ with (open('Modified files.txt', 'w', encoding='utf-8') as modified_files,
             for filename in filenames:
                 text_name, ext = path.splitext(filename)
                 if ext == '.xml':
-                    fullname = path.join(dirpath, filename)
-                    with open(fullname, 'r', encoding='utf-8') as fin:
+                    outfile = path.join(output_subdirectory, filename)
+                    if path.exists(outfile):
+                        infile = outfile
+                    else:
+                        infile = path.join(dirpath, filename)
+                    with open(infile, 'r', encoding='utf-8') as fin:
                         file_text = fin.read()
                     soup = BeautifulSoup(file_text, 'xml')
                     modified = modifier(soup, log.write)
                     if modified:
-                        outfile = path.join(output_subdirectory, filename)
-                        if not path.exists(output_subdirectory):
-                            os.makedirs(output_subdirectory)
+                        os.makedirs(output_subdirectory, exist_ok=True)
                         with open(outfile, 'w', encoding='utf-8') as fout:
                             outfile_text = str(soup)
                             fout.write(outfile_text)
