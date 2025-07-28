@@ -28,6 +28,9 @@ class Morph:
     
     def __hash__(self):
         return self.__tuple__().__hash__()
+    
+    def to_multi(self):
+        raise NotImplementedError
         
 class SingleMorph(Morph):
     
@@ -104,6 +107,9 @@ class MultiMorph(Morph):
             return self.to_single().__hash__()
         else:
             return self.__tuple__().__hash__()
+    
+    def to_multi(self):
+        return self
         
 def in_braces(string: str) -> bool:
     return string.startswith('{') and string.endswith('}')
