@@ -6,6 +6,10 @@ from tqdm.auto import tqdm
 from bs4 import BeautifulSoup
 from soup_modifier import SoupModifier
 
+LOG_NAME = 'error_log.txt'
+def log_error(message: str) -> None:
+  with open(LOG_NAME, 'a', encoding='utf-8') as error_log:
+    print(message, file=error_log)
 with open('config.json', 'r', encoding='utf-8') as fin:
     config = json.load(fin)
 for key, value in config.items():
@@ -36,6 +40,7 @@ with (open('Modified files.txt', 'w', encoding='utf-8') as modified_files,
             for filename in filenames:
                 text_name, ext = path.splitext(filename)
                 if ext == '.xml':
+                  try:
                     outfile = path.join(output_subdirectory, filename)
                     if path.exists(outfile):
                         infile = outfile
@@ -51,7 +56,9 @@ with (open('Modified files.txt', 'w', encoding='utf-8') as modified_files,
                             outfile_text = str(soup)
                             fout.write(outfile_text)
                         modified_files.write('{0:8} {1}\n'.format(folder, text_name))
-
+                  except (KeyError, ValueError) as exc:
+                    log_error(path.join(dirpath, filename))
+                    log_error(exc)
 
 
 
