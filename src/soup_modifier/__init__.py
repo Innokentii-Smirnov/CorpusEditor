@@ -29,6 +29,8 @@ class SoupModifier:
                     logging_function('Line {0} in {1} is not marked for language.\n'.format(lnr, publ))
                     lang = 'Hur'
             elif tag.name == 'w' and lang == 'Hur':
+                if 'lg' in tag.attrs and tag['lg'] != 'Hur':
+                    continue
                 if 'mrpnan' in tag.attrs:
                     del tag.attrs['mrpnan']
                 for attr, value in tag.attrs.items():
