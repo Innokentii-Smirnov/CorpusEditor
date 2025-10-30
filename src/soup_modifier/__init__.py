@@ -16,9 +16,13 @@ class SoupModifier:
         lang = 'hit'
         publ = soup.find('AO:TxtPubl').text
         modified = False
+        lnr = '[unknown]'
         for tag in soup(['lb', 'w']):
             if tag.name == 'lb':
-                lnr = tag['lnr']
+                if 'lnr' in tag.attrs:
+                  lnr = tag['lnr']
+                else:
+                  raise ValueError('The next line after {0} in {1} is not numbered'.format(lnr, publ))
                 if 'lg' in tag.attrs:
                     lang = tag['lg']
                 else:
@@ -29,7 +33,12 @@ class SoupModifier:
                     del tag.attrs['mrpnan']
                 for attr, value in tag.attrs.items():
                     if attr.startswith('mrp') and attr != 'mrp0sel':
-                        morph = parseMorph(value)
+                        try:
+                          morph = parseMorph(value)
+                        except ValueError:
+                          raise ValueError(
+                            'Incorrect morphological analysis:\n{0}\non line {1} in {2}'.format(value, lnr, publ)
+                          )
                         if morph in self.changes:
                             replacement = self.changes[morph]
                             if isinstance(morph, MultiMorph):

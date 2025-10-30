@@ -6,6 +6,8 @@ from tqdm.auto import tqdm
 from bs4 import BeautifulSoup
 from soup_modifier import SoupModifier
 import traceback
+from os.path import exists
+from os import remove
 
 SKIPPED_FILES = 'skipped_files.txt'
 LOG_NAME = 'error_log.txt'
@@ -17,6 +19,12 @@ def log_file_skipping(fullname: str) -> None:
 def log_error(message: str) -> None:
   with open(LOG_NAME, 'a', encoding='utf-8') as error_log:
     print(message, file=error_log)
+
+if exists(SKIPPED_FILES):
+  remove(SKIPPED_FILES)
+
+if exists(LOG_NAME):
+  remove(LOG_NAME)
 
 with open('config.json', 'r', encoding='utf-8') as fin:
     config = json.load(fin)
