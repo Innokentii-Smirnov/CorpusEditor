@@ -1,0 +1,138 @@
+CTH_341.II_mit_Annotation KBo 33.10+
+CTH_341.II_mit_Annotation KUB 47.16
+CTH_346.II_mit_Annotation KBo 54.4
+CTH_361.II_mit_Annotation KBo 27.219+
+CTH_361.II_mit_Annotation KBo 35.43
+CTH_361.II_mit_Annotation KBo 59.226
+CTH_361.II_mit_Annotation KUB 27.40+
+CTH_361.II_mit_Annotation KUB 47.2
+CTH_361.II_mit_Annotation KUB 47.3
+CTH_361.II_mit_Annotation KUB 47.4
+CTH_361.II_mit_Annotation KUB 47.5+
+CTH_361.II_mit_Annotation KUB 47.6
+CTH_361.II_mit_Annotation KUB 47.8
+CTH_370_mit_Annotation KBo 22.163
+CTH_370_mit_Annotation KBo 23.25
+CTH_370_mit_Annotation KBo 27.114+
+CTH_370_mit_Annotation KBo 27.188
+CTH_370_mit_Annotation KBo 33.62
+CTH_370_mit_Annotation KBo 35.52+
+CTH_370_mit_Annotation KBo 35.62
+CTH_370_mit_Annotation KBo 47.311
+CTH_370_mit_Annotation KBo 51.232
+CTH_370_mit_Annotation KBo 52.224
+CTH_370_mit_Annotation KBo 53.229
+CTH_370_mit_Annotation KBo 53.232
+CTH_370_mit_Annotation KBo 53.233
+CTH_370_mit_Annotation KBo 62.8
+CTH_370_mit_Annotation KBo 64.5
+CTH_370_mit_Annotation KBo 64.6
+CTH_370_mit_Annotation KUB 45.81
+CTH_370_mit_Annotation KUB 47.18
+CTH_370_mit_Annotation KUB 47.21
+CTH_370_mit_Annotation KUB 47.56
+CTH_370_mit_Annotation KUB 52.110
+CTH_774_mit_Annotation KBo 21.46
+CTH_774_mit_Annotation KBo 27.179
+CTH_774_mit_Annotation KBo 27.184
+CTH_774_mit_Annotation KBo 27.205
+CTH_774_mit_Annotation KBo 27.206
+CTH_774_mit_Annotation KBo 27.207
+CTH_774_mit_Annotation KBo 27.208
+CTH_774_mit_Annotation KBo 27.209
+CTH_774_mit_Annotation KBo 27.210
+CTH_774_mit_Annotation KBo 27.211
+CTH_774_mit_Annotation KBo 27.212
+CTH_774_mit_Annotation KBo 27.213
+CTH_774_mit_Annotation KBo 27.214
+CTH_774_mit_Annotation KBo 27.215
+CTH_774_mit_Annotation KBo 27.75
+CTH_774_mit_Annotation KBo 32.223
+CTH_774_mit_Annotation KBo 33.106
+CTH_774_mit_Annotation KBo 33.109
+CTH_774_mit_Annotation KBo 33.112
+CTH_774_mit_Annotation KBo 33.130
+CTH_774_mit_Annotation KBo 33.134
+CTH_774_mit_Annotation KBo 33.135
+CTH_774_mit_Annotation KBo 33.51+
+CTH_774_mit_Annotation KBo 35.1
+CTH_774_mit_Annotation KBo 35.2
+CTH_774_mit_Annotation KBo 35.24+
+CTH_774_mit_Annotation KBo 35.3
+CTH_774_mit_Annotation KBo 35.4
+CTH_774_mit_Annotation KBo 49.60
+CTH_774_mit_Annotation KBo 62.54
+CTH_774_mit_Annotation KBo 7.65
+CTH_774_mit_Annotation KBo 8.135
+CTH_774_mit_Annotation KBo 8.137
+CTH_774_mit_Annotation KBo 8.146
+CTH_774_mit_Annotation KUB 27.44
+CTH_774_mit_Annotation KUB 29.12
+CTH_774_mit_Annotation KUB 45.31
+CTH_774_mit_Annotation KUB 45.70
+CTH_774_mit_Annotation KUB 47.92
+CTH_774_mit_Annotation KUB 47.93
+CTH_774_mit_Annotation KUB 47.94
+CTH_774_mit_Annotation KUB 47.96
+CTH_774_mit_Annotation KUB 8.32
+CTH_774_mit_Annotation KUB 8.47
+CTH_775_mit_Annotation KBo 35.108
+CTH_775_mit_Annotation KUB 27.31
+CTH_775_mit_Annotation KUB 27.38
+CTH_775_mit_Annotation KUB 31.3
+CTH_775_mit_Annotation KUB 45.25
+CTH_776_mit_Annotation KBo 27.217
+CTH_776_mit_Annotation KBo 33.137+
+CTH_776_mit_Annotation KBo 33.202
+CTH_776_mit_Annotation KBo 33.203
+CTH_776_mit_Annotation KBo 33.205+
+CTH_776_mit_Annotation KBo 35.183+
+CTH_776_mit_Annotation KBo 51.224+
+CTH_776_mit_Annotation KUB 45.60
+CTH_776_mit_Annotation KUB 47.12+
+CTH_776_mit_Annotation KUB 47.17
+CTH_777_mit_ Annotation_unvollständig KBo 15.70+
+CTH_777_mit_ Annotation_unvollständig KBo 15.72+
+CTH_777_mit_ Annotation_unvollständig KBo 20.130
+CTH_777_mit_ Annotation_unvollständig KBo 20.131
+CTH_777_mit_ Annotation_unvollständig KBo 20.138
+CTH_777_mit_ Annotation_unvollständig KBo 21.43
+CTH_777_mit_ Annotation_unvollständig KBo 21.44+
+CTH_777_mit_ Annotation_unvollständig KBo 27.102+
+CTH_777_mit_ Annotation_unvollständig KBo 27.95
+CTH_777_mit_ Annotation_unvollständig KBo 27.96
+CTH_777_mit_ Annotation_unvollständig KBo 33.12+
+CTH_777_mit_ Annotation_unvollständig KBo 33.15+
+CTH_777_mit_ Annotation_unvollständig KBo 33.16
+CTH_777_mit_ Annotation_unvollständig KBo 33.43+
+CTH_777_mit_ Annotation_unvollständig KBo 40.123+
+CTH_777_mit_ Annotation_unvollständig KUB 32.23+
+CTH_777_mit_ Annotation_unvollständig KUB 32.25+
+CTH_777_mit_ Annotation_unvollständig KUB 32.40+
+CTH_777_mit_ Annotation_unvollständig KUB 32.51+
+CTH_777_mit_ Annotation_unvollständig KBo 27.92+
+CTH_789_mit_Annotation KBo 32.11
+CTH_789_mit_Annotation KBo 32.12
+CTH_789_mit_Annotation KBo 32.13+
+CTH_789_mit_Annotation KBo 32.14
+CTH_789_mit_Annotation KBo 32.15
+CTH_789_mit_Annotation KBo 32.16
+CTH_789_mit_Annotation KBo 32.19
+CTH_789_mit_Annotation KBo 32.20
+CTH_789_mit_Annotation KBo 32.209
+CTH_789_mit_Annotation KBo 32.23
+CTH_789_mit_Annotation KBo 32.25
+CTH_789_mit_Annotation KBo 32.26
+CTH_789_mit_Annotation KBo 32.28
+CTH_789_mit_Annotation KBo 32.31+
+CTH_789_mit_Annotation KBo 32.42
+CTH_789_mit_Annotation KBo 32.50
+CTH_789_mit_Annotation KBo 32.62
+CTH_789_mit_Annotation KBo 32.67
+CTH_789_mit_Annotation KBo 32.70
+CTH_789_mit_Annotation KBo 32.80
+CTH_789_mit_Annotation KBo 32.88
+CTH_789_mit_Annotation KBo 32.93
+CTH_789_mit_Annotation KBo 32.94
+CTH_789_vorläufig KBo 32.16
+CTH_789_vorläufig KBo 32.62
