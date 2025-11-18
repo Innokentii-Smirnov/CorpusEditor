@@ -1,4 +1,4 @@
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Tag
 from morph import Morph, MultiMorph
 from typing import Callable
 
@@ -9,12 +9,17 @@ class SoupModifier:
         for key, value in replacements.items():
             origin = Morph.parse(key)
             target = Morph.parse(value)
-            changes[origin] = target
+            if origin is not None and target is not None:
+              changes[origin] = target
         self.changes = changes
 
     def __call__(self, soup: BeautifulSoup, logging_function: Callable[[str], None]) -> bool:
         lang = 'hit'
-        publ = soup.find('AO:TxtPubl').text
+        publ_tag = soup.find('AO:TxtPubl')
+        if isinstance(publ_tag, Tag):
+          publ = publ_tag.text
+        else:
+          publ = '[unknown]'
         modified = False
         lnr = '[unknown]'
         for tag in soup(['lb', 'w']):

@@ -48,6 +48,8 @@ walk = list(os.walk(config['inputDirectory']))
 progress_bar = tqdm(walk)
 with (open('Modified files.txt', 'w', encoding='utf-8') as modified_files,
       open('Log.txt', 'w', encoding='utf-8') as log):
+    def logging_function(message: str) -> None:
+      log.write(message)
     for dirpath, dirnames, filenames in progress_bar:
         _, folder = path.split(dirpath)
         if folder != 'Backup':
@@ -65,7 +67,7 @@ with (open('Modified files.txt', 'w', encoding='utf-8') as modified_files,
                     with open(infile, 'r', encoding='utf-8') as fin:
                         file_text = fin.read()
                     soup = BeautifulSoup(file_text, 'xml')
-                    modified = modifier(soup, log.write)
+                    modified = modifier(soup, logging_function)
                     if modified:
                         os.makedirs(output_subdirectory, exist_ok=True)
                         with open(outfile, 'w', encoding='utf-8') as fout:
