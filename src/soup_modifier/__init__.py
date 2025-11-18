@@ -49,7 +49,8 @@ class SoupModifier:
                         if morph in self.changes:
                             replacement = self.changes[morph]
                             if isinstance(morph, MultiMorph):
-                                replacement = replacement.to_multi()
+                                index = next(iter(morph.morph_tags))
+                                replacement = replacement.to_multi(index)
                             repl_str = replacement.__str__()
                             tag[attr] = repl_str
                             if not modified:

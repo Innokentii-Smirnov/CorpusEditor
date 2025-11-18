@@ -61,7 +61,7 @@ class Morph:
     def __hash__(self) -> int:
         return self.__tuple__().__hash__()
     
-    def to_multi(self) -> MultiMorph:
+    def to_multi(self, index: str) -> MultiMorph:
         raise NotImplementedError
 
     """Return the morphological tag if it is the only morphological tag option
@@ -168,9 +168,9 @@ class SingleMorph(Morph):
     def __hash__(self) -> int:
         return self.__tuple__().__hash__()
         
-    def to_multi(self) -> MultiMorph:
+    def to_multi(self, index: str) -> MultiMorph:
         return MultiMorph(self.segmentation, self.translation,
-            {'a': self.morph_tag}, self.pos, self.det, self.enclitics_analysis)
+            {index: self.morph_tag}, self.pos, self.det, self.enclitics_analysis)
 
     @property
     def single_morph_tag(self) -> str:
@@ -228,7 +228,7 @@ class MultiMorph(Morph):
         else:
             return self.__tuple__().__hash__()
     
-    def to_multi(self) -> MultiMorph:
+    def to_multi(self, index: str) -> MultiMorph:
         return self
 
     @property
