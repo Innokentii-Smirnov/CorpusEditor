@@ -8,6 +8,9 @@ from soup_modifier import SoupModifier
 import traceback
 from os.path import exists
 from os import remove
+from formatter import CustomFormatter
+from bs4.dammit import EntitySubstitution
+custom_formatter = CustomFormatter(entity_substitution=EntitySubstitution.substitute_xml)
 
 SKIPPED_FILES = 'skipped_files.txt'
 LOG_NAME = 'error_log.txt'
@@ -71,7 +74,7 @@ with (open('Modified files.txt', 'w', encoding='utf-8') as modified_files,
                     if modified:
                         os.makedirs(output_subdirectory, exist_ok=True)
                         with open(outfile, 'w', encoding='utf-8') as fout:
-                            outfile_text = str(soup)
+                            outfile_text = soup.decode(formatter=custom_formatter)
                             fout.write(outfile_text)
                         modified_files.write('{0:8} {1}\n'.format(folder, text_name))
                   except (KeyError, ValueError) as exc:
