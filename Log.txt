@@ -1,11 +1,11 @@
-KBo 33.10 {€1} (+) KBo 19.124 {€2} + KBo 54.5 {€3}
+CTH_341.II_mit_Annotation/KBo 33.10+
 	 {€1} Vs.? 4′! ēvri @ Herr @ { a  → .ABS} @ noun @           ēvri @ Herr @ { a  → .ABS} @ noun @ 
 	 {€2} Vs. II 3 ēvri @ Herr @ { a  → .ABS} @ noun @           ēvri @ Herr @ { a  → .ABS} @ noun @ 
-KUB 47.16
+CTH_341.II_mit_Annotation/KUB 47.16
 	5′         ēvri @ Herr @ .ABS @ noun @                   ēvri @ Herr @ .ABS @ noun @ 
-KBo 54.4
+CTH_346.II_mit_Annotation/KBo 54.4
 	5′         ēvri @ Herr @ .ABS @ noun @                   ēvri @ Herr @ .ABS @ noun @ 
-KBo 27.219 {€3} + KUB 47.1 {€1} (+) KUB 47.112 {€2} + KBo 61.243 {€4} + KBo 7.70 {€5} + KBo 12.79 {€6} + KBo 27.218 {€7}
+CTH_361.II_mit_Annotation/KBo 27.219+
 	 {€1} Vs. I 2 šūġuri-ne@u.B.@{ a → ABL/INS}@noun@           šuġori-ne @ u.B. @ { a  → ABL/INS} @ noun @ 
 	 {€1} Vs. I 2 šūġuri-ne-e@u.B.@{ a → RELAT.SG-DIR/LOC}@noun@ šuġori-ne-e @ u.B. @ { a  → RELAT.SG-DIR/LOC} @ noun @ 
 	 {€1} Vs. I 4 šūġuri-ne@u.B.@{ a → ABL/INS}@noun@           šuġori-ne @ u.B. @ { a  → ABL/INS} @ noun @ 
@@ -51,18 +51,18 @@ KBo 27.219 {€3} + KUB 47.1 {€1} (+) KUB 47.112 {€2} + KBo 61.243 {€4} + 
 	 {€1+7} Rs. IV 7″/8′ šīe-a@Wasser; Fluss@ESS@noun@                 šie-a @ Wasser; Fluss @ ESS @ noun @ 
 	 {€1+7} Rs. IV 8″/9′ šīe-ne=ma@Wasser; Fluss@{ a → ABL/INS=CON}@noun@ šie-ne=ma @ Wasser; Fluss @ { a  → ABL/INS=CON} @ noun @ 
 	 {€1+7} Rs. IV 8″/9′ šīe-ne-e=ma@Wasser; Fluss@{ a → RELAT.SG-DIR/LOC=CON}@noun@ šie-ne-e=ma @ Wasser; Fluss @ { a  → RELAT.SG-DIR/LOC=CON} @ noun @ 
-KBo 35.43
+CTH_361.II_mit_Annotation/KBo 35.43
 	Vs. 10′!   ḫavor+ni-ne@Himmel@{ a → ABL/INS}@noun@       ḫavoro+ni-ne @ Himmel @ { a  → ABL/INS} @ noun @ 
 	Vs. 10′!   ḫavor+ni-ne-e@Himmel@{ a → RELAT.SG-DIR/LOC}@noun@ ḫavoro+ni-ne-e @ Himmel @ { a  → RELAT.SG-DIR/LOC} @ noun @ 
 	Vs. 11′!   ḫavor+ni@Himmel@{ a → .ABS}@noun@             ḫavoro+ni @ Himmel @ { a  → .ABS} @ noun @ 
 	Vs. 12′!   ḫavor+ni-ne@Himmel@{ a → ABL/INS}@noun@       ḫavoro+ni-ne @ Himmel @ { a  → ABL/INS} @ noun @ 
 	Vs. 12′!   ḫavor+ni-ne-e@Himmel@{ a → RELAT.SG-DIR/LOC}@noun@ ḫavoro+ni-ne-e @ Himmel @ { a  → RELAT.SG-DIR/LOC} @ noun @ 
 	Vs. 16′!   ḫavor+ni-ne-ve@Himmel@{ a → RELAT.SG-GEN}@noun@ ḫavoro+ni-ne-ve @ Himmel @ { a  → RELAT.SG-GEN} @ noun @ 
-KBo 59.226
+CTH_361.II_mit_Annotation/KBo 59.226
 	3′         šīe-a@Wasser; Fluss@ESS@noun@                 šie-a @ Wasser; Fluss @ ESS @ noun @ 
-KUB 27.40 {€1} + KUB 36.61 {€2}
+CTH_361.II_mit_Annotation/KUB 27.40+
 	 {€1} 4′   fandi-i-da @ recht; rechte Seite @ { a  → 3POSS.SG-DIR} @ noun @  fandi-i-da @ recht, rechte Seite; rechts @ { a  → 3POSS.SG-DIR} @ noun @ 
-KUB 47.2
+CTH_361.II_mit_Annotation/KUB 47.2
 	Vs. I 2    kūlī-na@u.B.@{ a → RELAT.PL.ABS}@noun@        kuli-na @ u.B. @ { a  → RELAT.PL.ABS} @ noun @ 
 	Vs. I 5    kād-i-a@sagen; sprechen@{ a → TR-3A.SG}@verb@ kad-i-a @ sagen; sprechen @ { a  → TR-3A.SG} @ verb @ 
 	Vs. I 15   kād-i-a@sagen; sprechen@TR-3A.SG@verb@        kad-i-a @ sagen; sprechen @ TR-3A.SG @ verb @ 
@@ -73,16 +73,16 @@ KUB 47.2
 	13′        ēvri@Herr@.ABS@noun@                          ēvri @ Herr @ .ABS @ noun @ 
 	15′        tūn-uw-a@überwältigen; vemögen@{ a → MED-3A.SG}@verb@ tūn-uw-a @ vermögen; überwinden @ { a  → MED-3A.SG} @ verb @ 
 	15′        tūn-o-va-en@überwältigen; vemögen@{ a → MOD.PAT-NEG-3JUSS}@verb@ tūn-o-va-en @ vermögen; überwinden @ { a  → MOD.PAT-NEG-3JUSS} @ verb @ 
-KUB 47.3
+CTH_361.II_mit_Annotation/KUB 47.3
 	6′         māri@u.B.@{ a → .ABS}@noun@                   mari @ u.B. @ { a  → .ABS} @ noun @ 
 	6′         mār-i@u.B.@{ a → ANTIP} { b → TR.IMP}@verb@   mar-i @ u.B. @ { a  → ANTIP}{ b  → TR.IMP} @ verb @ 
-KUB 47.4
+CTH_361.II_mit_Annotation/KUB 47.4
 	Vs. I 5′   tāli-ā=l@u.B.@ESS=3PL.ABS@noun@               tale-ā=l @ u.B. @ ESS=3PL.ABS @ noun @ 
 	Vs. I 7′   eg+ūšš-ā-b@u.B.@{ a → INT-b}@verb@            eg+ušš-ā-b @ u.B. @ { a  → INT-b} @ verb @ 
 	Vs. I 7′   eg+ūšš-ā=v@u.B.@{ a → INT=2PL.ABS} { b → 3A.SG=2PL.ABS}@verb@ eg+ušš-ā=v @ u.B. @ { a  → INT=2PL.ABS}{ b  → 3A.SG=2PL.ABS} @ verb @ 
 	Vs. I 7′   eg+ūšš-ā=m@u.B.@{ a → INT=CON} { b → 3A.SG=CON}@verb@ eg+ušš-ā=m @ u.B. @ { a  → INT=CON}{ b  → 3A.SG=CON} @ verb @ 
 	Rs. IV 5′  ḫāni-i-a@Kind; Kleinkind; Säugling@{ a → 3POSS.SG-ESS}@noun@ ḫāni-i-a @ Kind; Säugling @ { a  → 3POSS.SG-ESS} @ noun @ 
-KUB 47.5 {€1} + CHDS 3.118 {€2} + KUB 47.11 {€3} + KUB 47.7 {€4}
+CTH_361.II_mit_Annotation/KUB 47.5+
 	 {€1} Vs. I 5′ tīv-a@sprechen@{ a → INT}@verb@               tiv-a @ sprechen @ { a  → INT} @ verb @ 
 	 {€1} Vs. I 6′ tive-na@Wort; Sache@{ a → RELAT.PL.ABS}@noun@ tīve-na @ Wort; Sache @ { a  → RELAT.PL.ABS} @ noun @ 
 	 {€1} Vs. I 7′ kād-i-a@sagen; sprechen@TR-3A.SG@verb@        kad-i-a @ sagen; sprechen @ TR-3A.SG @ verb @ 
@@ -104,7 +104,7 @@ KUB 47.5 {€1} + CHDS 3.118 {€2} + KUB 47.11 {€3} + KUB 47.7 {€4}
 	 {€1} Rs. IV 12 šūm+a+ni+ne-ž=l@u.B.@{ a → ERG=3PL.ABS}@noun@ šumm+a+ni+ne-ž=l @ u.B. @ { a  → ERG=3PL.ABS} @ noun @ 
 	 {€1} Rs. IV 12 šūm+a+nni-ž=l@u.B.@{ a → ERG=3PL.ABS}@noun@   šumm+a+nni-ž=l @ u.B. @ { a  → ERG=3PL.ABS} @ noun @ 
 	 {€1} Rs. IV 13 šōkko@eins@{ a → .ABS}@NUM@                   šokko @ eins @ { a  → .ABS} @ NUM @ 
-KUB 47.6
+CTH_361.II_mit_Annotation/KUB 47.6
 	Vs. II 1   kād-o-kko@sagen; sprechen@INT-NEG@verb@       kad-o-kko @ sagen; sprechen @ INT-NEG @ verb @ 
 	Vs. II 3   kād-o-kko@sagen; sprechen@INT-NEG@verb@       kad-o-kko @ sagen; sprechen @ INT-NEG @ verb @ 
 	Vs. II 4   tarmāni-ož@Quelle@{ a → EQU}@noun@            tarm+a+ni-ož @ Quelle @ { a  → EQU} @ noun @ 
@@ -112,59 +112,59 @@ KUB 47.6
 	Vs. II 10  šīe-a@Wasser; Fluss@{ a → ESS}@noun@          šie-a @ Wasser; Fluss @ { a  → ESS} @ noun @ 
 	5′         āi=mān @ falls; wenn @ { a  → =CON} @ CONJ @  ai=mān @ falls; wenn @ { a  → =CON} @ CONJ @ 
 	5′         āi=m=ān @ falls; wenn @ { a  → =2SG.ABS=CON} @ CONJ @  ai=m=ān @ falls; wenn @ { a  → =2SG.ABS=CON} @ CONJ @ 
-KUB 47.8
+CTH_361.II_mit_Annotation/KUB 47.8
 	Rs. V? 1   ari-ne-va@das Böse@{ a → RELAT.SG-DAT}@noun@  āri-ne-va @ das Böse @ { a  → RELAT.SG-DAT} @ noun @ 
-KBo 22.163
+CTH_370_mit_Annotation/KBo 22.163
 	3′         nēra-a@Mutter@{ a → ESS}@noun@                nera-a @ Mutter @ { a  → ESS} @ noun @ 
 	4′         šīe-a@Wasser; Fluss@ESS@noun@                 šie-a @ Wasser; Fluss @ ESS @ noun @ 
 	5′         kād-i-a@sagen; sprechen@TR-3A.SG@verb@        kad-i-a @ sagen; sprechen @ TR-3A.SG @ verb @ 
-KBo 23.25
+CTH_370_mit_Annotation/KBo 23.25
 	1′         šātti @ 1PRON.PL @ { a  → .ABS} @ PRON @      šatti @ 1PRON.PL @ { a  → .ABS} @ PRON @ 
 	3′         fōr-i=l@sehen@{ a → ANTIP=3PL.ABS}@verb@      for-i=l @ sehen @ { a  → ANTIP=3PL.ABS} @ verb @ 
 	6′         kād-i-a @ sagen; sprechen @ 3POSS.SG-ESS @ verb @  kad-i-a @ sagen; sprechen @ 3POSS.SG-ESS @ verb @ 
-KBo 27.114 {€2}
+CTH_370_mit_Annotation/KBo 27.114+
 	 {€3+2} Rs. 3/1′ allā+ni-a=m@Herrin@{ a → ESS=CON} { b → ESS=2SG.ABS}@noun@ alla+ni-a=m @ Herrin @ { a  → ESS=CON}{ b  → ESS=2SG.ABS} @ noun @ 
 	 {€3+2} Rs. 3/1′ allā+ni=m@Herrin@{ a → .ABS=2SG.ABS}@noun@    alla+ni=m @ Herrin @ { a  → .ABS=2SG.ABS} @ noun @ 
 	 {€3+2} Rs. 6/4′ allā+ni-ā=m@Herrin@{ a → ESS=CON} { b → ESS=2SG.ABS}@noun@ alla+ni-ā=m @ Herrin @ { a  → ESS=CON}{ b  → ESS=2SG.ABS} @ noun @ 
 	 {€3+2} Rs. 6/4′ allā+ni=m@Herrin@{ a → .ABS=2SG.ABS}@noun@    alla+ni=m @ Herrin @ { a  → .ABS=2SG.ABS} @ noun @ 
 	 {€1} 16′  šend-ai@u.B.@{ a → INS}@noun@                 šende-ai @ u.B. @ { a  → INS} @ noun @ 
-KBo 27.188
+CTH_370_mit_Annotation/KBo 27.188
 	5′         kād-i-a @ sagen; sprechen @ TR-3A.SG @ verb @  kad-i-a @ sagen; sprechen @ TR-3A.SG @ verb @ 
-KBo 33.62
+CTH_370_mit_Annotation/KBo 33.62
 	4′         pātti-ne@u.B.@{ a → ABL/INS}@noun@            patte-ne @ u.B. @ { a  → ABL/INS} @ noun @ 
 	4′         pātti-ne-e@u.B.@RELAT.SG-DIR/LOC@noun@        patte-ne-e @ u.B. @ RELAT.SG-DIR/LOC @ noun @ 
 	9′         fōr-i@sehen@{ a → ANTIP}@verb@                for-i @ sehen @ { a  → ANTIP} @ verb @ 
 	12′        mūž-a@ordnen; bereiten@{ a → INT}@verb@       mūž-a @ bereiten; ordnen @ { a  → INT} @ verb @ 
 	17′        pattē-na@u.B.@{ a → RELAT.PL.ABS}@noun@       patte-na @ u.B. @ { a  → RELAT.PL.ABS} @ noun @ 
 	29′        Teššop-pe@DN@{ a → GEN}@noun@                 Teššob-pe @ DN @ { a  → GEN} @ noun @ 
-KBo 35.52 {€1} + KBo 35.44 {€2}
+CTH_370_mit_Annotation/KBo 35.52+
 	 {€2+1} 3′/5′ kād-i-a@sagen; sprechen@TR-3A.SG@verb@        kad-i-a @ sagen; sprechen @ TR-3A.SG @ verb @ 
 	 {€2+1} 5′/7′ taržuwā+ni @ Mensch @ { a  → .ABS} @ noun @   taržuwa+ni @ Mensch @ { a  → .ABS} @ noun @ 
 	 {€2} 6′   šātti@1PRON.PL@.ABS@PRON@                     šatti @ 1PRON.PL @ .ABS @ PRON @ 
-KBo 35.62
+CTH_370_mit_Annotation/KBo 35.62
 	2′         fōr-i@sehen@{ a → ANTIP}@verb@                for-i @ sehen @ { a  → ANTIP} @ verb @ 
 	3′         tūmni-i-až-ōž @ vier @ { a  → 3POSS-PL-ERG} @ NUM @  tumni-i-až-ōž @ vier @ { a  → 3POSS-PL-ERG} @ NUM @ 
 	5′         šēr+že-ne @ u.B. @ { a  → ABL/INS} @ noun @   šer+že-ne @ u.B. @ { a  → ABL/INS} @ noun @ 
 	5′         šēr+že-ne-e @ u.B. @ { a  → RELAT.SG-DIR/LOC} @ noun @  šer+že-ne-e @ u.B. @ { a  → RELAT.SG-DIR/LOC} @ noun @ 
-KBo 47.311
+CTH_370_mit_Annotation/KBo 47.311
 	Vs. r. Kol. 3′ taržuwā+ni @ Mensch @ { a  → .ABS} @ noun @   taržuwa+ni @ Mensch @ { a  → .ABS} @ noun @ 
 	Vs. r. Kol. 3′ taržuwā+ni-na @ Mensch @ { a  → RELAT.PL.ABS} @ noun @  taržuwa+ni-na @ Mensch @ { a  → RELAT.PL.ABS} @ noun @ 
 	Vs. r. Kol. 3′ taržuwā+ni-ne @ Mensch @ { a  → ABL/INS} @ noun @  taržuwa+ni-ne @ Mensch @ { a  → ABL/INS} @ noun @ 
 	Vs. r. Kol. 3′ taržuwā+ni-ne-e @ Mensch @ { a  → RELAT.SG-DIR/LOC} @ noun @  taržuwa+ni-ne-e @ Mensch @ { a  → RELAT.SG-DIR/LOC} @ noun @ 
 	Vs. r. Kol. 3′ taržuwa+n+ze @ Menschheit @ { a  → .ABS} @ noun @  taržuwa+n+zi @ Menschheit @ { a  → .ABS} @ noun @ 
-KBo 51.232
+CTH_370_mit_Annotation/KBo 51.232
 	Seite A 8′ oġ+ō+ni@Weh(geschrei)@{ a → .ABS}@noun@       oġ+o+ni @ Weh(geschrei) @ { a  → .ABS} @ noun @ 
 	Seite A 10′ iškini-na@u.B.@{ a → RELAT.PL.ABS}@noun@      iški+ni-na @ u.B. @ { a  → RELAT.PL.ABS} @ noun @ 
-KBo 52.224
+CTH_370_mit_Annotation/KBo 52.224
 	2′         šer-ušt-i=l@u.B.@{ a → RES-ANTIP=3PL.ABS} { b → RES-TR.IMP=3PL.ABS}@verb@ šēr-ušt-i=l @ u.B. @ { a  → RES-ANTIP=3PL.ABS}{ b  → RES-TR.IMP=3PL.ABS} @ verb @ 
 	6′         kād-i-a @ sagen; sprechen @ TR-3A.SG @ verb @  kad-i-a @ sagen; sprechen @ TR-3A.SG @ verb @ 
-KBo 53.229
+CTH_370_mit_Annotation/KBo 53.229
 	7′         kād-i-a @ sagen; sprechen @ TR-3A.SG @ verb @  kad-i-a @ sagen; sprechen @ TR-3A.SG @ verb @ 
-KBo 53.232
+CTH_370_mit_Annotation/KBo 53.232
 	6′         kād-i-a @ sagen; sprechen @ TR-3A.SG @ verb @  kad-i-a @ sagen; sprechen @ TR-3A.SG @ verb @ 
-KBo 53.233
+CTH_370_mit_Annotation/KBo 53.233
 	lk. Kol. 2′ kād-i-a @ sagen; sprechen @ TR-3A.SG @ verb @  kad-i-a @ sagen; sprechen @ TR-3A.SG @ verb @ 
-KBo 62.8
+CTH_370_mit_Annotation/KBo 62.8
 	Vs. 2′     mēġ-a @ hintreten @ { a  → INT} @ verb @      meġ-a @ hintreten @ { a  → INT} @ verb @ 
 	Vs. 13′    aġri-ne-ž @ Weihrauch @ { a  → RELAT.SG-ERG} @ noun @  āġri-ne-ž @ Weihrauch @ { a  → RELAT.SG-ERG} @ noun @ 
 	Rs. 1      ari-ne-nna@das Böse@{ a → RELAT.SG-EQU}@noun@ āri-ne-nna @ das Böse @ { a  → RELAT.SG-EQU} @ noun @ 
@@ -172,23 +172,23 @@ KBo 62.8
 	Rs. 1      ari-ne-e=nna@das Böse@{ a → RELAT.SG-DIR/LOC=3SG.ABS}@noun@ āri-ne-e=nna @ das Böse @ { a  → RELAT.SG-DIR/LOC=3SG.ABS} @ noun @ 
 	Rs. 7      aġri-ne-ž @ Weihrauch @ RELAT.SG-ERG @ noun @  āġri-ne-ž @ Weihrauch @ RELAT.SG-ERG @ noun @ 
 	Rs. 9      irde@Zunge@{ a → .ABS}@noun@                  irdi @ Zunge @ { a  → .ABS} @ noun @ 
-KBo 64.5
+CTH_370_mit_Annotation/KBo 64.5
 	3′         ḫavor+ni-ne @ Himmel @ { a  → ABL/INS} @ noun @  ḫavoro+ni-ne @ Himmel @ { a  → ABL/INS} @ noun @ 
 	3′         ḫavor+ni-ne-e @ Himmel @ { a  → RELAT.SG-DIR/LOC} @ noun @  ḫavoro+ni-ne-e @ Himmel @ { a  → RELAT.SG-DIR/LOC} @ noun @ 
 	4′         kād-i-a @ sagen; sprechen @ TR-3A.SG @ verb @  kad-i-a @ sagen; sprechen @ TR-3A.SG @ verb @ 
-KBo 64.6
+CTH_370_mit_Annotation/KBo 64.6
 	4′         ubi-a@u.B.@{ a → ESS}@noun@                   ubī-a @ u.B. @ { a  → ESS} @ noun @ 
 	6′         kād-i-a @ sagen; sprechen @ TR-3A.SG @ verb @  kad-i-a @ sagen; sprechen @ TR-3A.SG @ verb @ 
-KUB 45.81
+CTH_370_mit_Annotation/KUB 45.81
 	5′         niġāri@Mitgift; Gabe@{ a → .ABS}@noun@        niġari @ Mitgift; Gabe @ { a  → .ABS} @ noun @ 
 	9′         faž-a=mma@eintreten@{ a → INT=2SG.ABS} { b → INT.IMP=2SG.ABS}@verb@ faž-a=mma @ eintreten, hineinbringen @ { a  → INT=2SG.ABS}{ b  → INT.IMP=2SG.ABS} @ verb @ 
 	9′         faži-a=mma@Mund@{ a → ESS=2SG.ABS}@noun@      fāži-a=mma @ Mund @ { a  → ESS=2SG.ABS} @ noun @ 
-KUB 47.18
+CTH_370_mit_Annotation/KUB 47.18
 	Vs. 3′     kād-i-a@sagen; sprechen@{ a → TR-3A.SG}@verb@ kad-i-a @ sagen; sprechen @ { a  → TR-3A.SG} @ verb @ 
-KUB 47.21
+CTH_370_mit_Annotation/KUB 47.21
 	7′         ḫavor+ni-ne @ Himmel @ { a  → ABL/INS} @ noun @  ḫavoro+ni-ne @ Himmel @ { a  → ABL/INS} @ noun @ 
 	7′         ḫavor+ni-ne-e @ Himmel @ { a  → RELAT.SG-DIR/LOC} @ noun @  ḫavoro+ni-ne-e @ Himmel @ { a  → RELAT.SG-DIR/LOC} @ noun @ 
-KUB 47.56
+CTH_370_mit_Annotation/KUB 47.56
 	Vs. 6′     tali@u.B.@{ a → .ABS}@noun@                   tale @ u.B. @ { a  → .ABS} @ noun @ 
 	Vs. 6′     tal-i@u.B.@{ a → ANTIP}@verb@                 tāl-i @ u.B. @ { a  → ANTIP} @ verb @ 
 	Vs. 6′     tal-i-le@u.B.@{ a → MOD.ACT-1JUSS}@verb@      tāl-i-le @ u.B. @ { a  → MOD.ACT-1JUSS} @ verb @ 
@@ -218,17 +218,17 @@ KUB 47.56
 	Rs. 22′    āġri-a@Weihrauch@ESS@noun@                    aġri-a @ Weihrauch @ ESS @ noun @ 
 	Rs. 23′    āġri-a@Weihrauch@{ a → ESS}@noun@             aġri-a @ Weihrauch @ { a  → ESS} @ noun @ 
 	Rs. 24′    natki-ne@u.B@{ a → ABL/INS}@noun@             natki-ne @ u.B. @ { a  → ABL/INS} @ noun @ 
-KUB 52.110
+CTH_370_mit_Annotation/KUB 52.110
 	6′         šātti @ 1PRON.PL @ { a  → .ABS} @ PRON @      šatti @ 1PRON.PL @ { a  → .ABS} @ PRON @ 
 	10′        iža+mmi@u.B.@{ a → .ABS}@noun@                iža+mme @ u.B. @ { a  → .ABS} @ noun @ 
 	12′        ābri@u.B.@{ a → .ABS}@noun@                   abri @ u.B. @ { a  → .ABS} @ noun @ 
-KBo 21.46
+CTH_774_mit_Annotation/KBo 21.46
 	4′         ḫari@Weg@.ABS@noun@                           ḫāri @ Weg @ .ABS @ noun @ 
 	5′         tari-ne-ž@Feuer@{ a → RELAT.SG-ERG}@noun@     tāri-ne-ž @ Feuer @ { a  → RELAT.SG-ERG} @ noun @ 
 	8′         sul+ūd-a@lösen@INT@verb@                      sul+ud-a @ lösen @ INT @ verb @ 
 	8′         ḫā+i+ġe@u.B.@{ a → .ABS}@noun@                ḫa+i+ġe @ u.B. @ { a  → .ABS} @ noun @ 
 	11′        keldi@Wohl@{ a → .ABS}@noun@                  kel+di @ Wohl @ { a  → .ABS} @ noun @ 
-KBo 27.179
+CTH_774_mit_Annotation/KBo 27.179
 	Vs. 7′     ḫari@Weg@.ABS@noun@                           ḫāri @ Weg @ .ABS @ noun @ 
 	Vs. 10′    idi-iffe-až-a@Körper@{ a → 1POSS-PL-DAT/ESS}@noun@ idi-iffe-až-a @ Körper; Bezug @ { a  → 1POSS-PL-DAT/ESS} @ noun @ 
 	Vs. 10′    tivaži-a@u.B.@{ a → ESS}@noun@                tivāži-a @ u.B. @ { a  → ESS} @ noun @ 
@@ -239,9 +239,9 @@ KBo 27.179
 	Vs. 21′    ḫari@Weg@{ a → .ABS}@noun@                    ḫāri @ Weg @ { a  → .ABS} @ noun @ 
 	Vs. 26′    ḫa-i-ūffu@nehmen@{ a → TR-1A.SG.NEG}@verb@    ḫā-i-ūffu @ nehmen @ { a  → TR-1A.SG.NEG} @ verb @ 
 	Rs. 3′     taʾe@Mann@{ a → .ABS}@noun@                   tāʾe @ Mann @ { a  → .ABS} @ noun @ 
-KBo 27.184
+CTH_774_mit_Annotation/KBo 27.184
 	3′         kēl-ād-i@wohl machen; wohl sein@{ a → ād-ANTIP}@verb@ kēl-ād-i @ wohl sein; wohl machen @ { a  → ād-ANTIP} @ verb @ 
-KBo 27.205
+CTH_774_mit_Annotation/KBo 27.205
 	2′         ažni-va@Gallenblase@DAT@noun@                 ažne-va @ Gallenblase @ DAT @ noun @ 
 	2′         ažni-a@Gallenblase@{ a → ESS}@noun@           ažne-a @ Gallenblase @ { a  → ESS} @ noun @ 
 	3′         ažni-ve@Gallenblase@GEN@noun@                 ažne-ve @ Gallenblase @ GEN @ noun @ 
@@ -249,14 +249,14 @@ KBo 27.205
 	4′         tid-išt-ed-i@u.B.@{ a → RES-FUT-ANTIP}@verb@  tīd-išt-ed-i @ u.B. @ { a  → RES-FUT-ANTIP} @ verb @ 
 	6′         ažni-ve@Gallenblase@GEN@noun@                 ažne-ve @ Gallenblase @ GEN @ noun @ 
 	8′         fandi@rechte Seite; rechts@.ABS@noun@         fandi @ recht, rechte Seite; rechts @ .ABS @ noun @ 
-KBo 27.206
+CTH_774_mit_Annotation/KBo 27.206
 	2′         ḫari@Weg@{ a → .ABS}@noun@                    ḫāri @ Weg @ { a  → .ABS} @ noun @ 
 	2′         nirġi-ne-e@u.B.@{ a → RELAT.SG-DIR/LOC}@verb@ nirġi-ne-e @ u.B. @ { a  → RELAT.SG-DIR/LOC} @ noun @ 
 	5′         šo-āž-a@1PRON@{ a → PL-DAT/ESS}@PRON@         šō-āž-a @ 1PRON.SG @ { a  → PL-DAT/ESS} @ PRON @ 
 	5′         šo-āž-e-a@1PRON@{ a → PL-GEN-ESS}@PRON@       šō-āž-e-a @ 1PRON.SG @ { a  → PL-GEN-ESS} @ PRON @ 
 	7′         ḫari@Weg@{ a → .ABS}@noun@                    ḫāri @ Weg @ { a  → .ABS} @ noun @ 
 	9′         ḫill-ēd-i@mitteilen@FUT-ANTIP@noun@           ḫill-ēd-i @ mitteilen @ FUT-ANTIP @ verb @ 
-KBo 27.207
+CTH_774_mit_Annotation/KBo 27.207
 	2′         am-ašt-ed-a@brennen; verbrennen@{ a → RES-FUT-3A.SG}@verb@ am-ašt-ed-a @ verbrennen @ { a  → RES-FUT-3A.SG} @ verb @ 
 	4′         sul+ūd-a@lösen@{ a → INT}@verb@               sul+ud-a @ lösen @ { a  → INT} @ verb @ 
 	5′         sul+ūd-a@lösen@INT@verb@                      sul+ud-a @ lösen @ INT @ verb @ 
@@ -264,12 +264,12 @@ KBo 27.207
 	7′         sul+ūd-a@lösen@INT@verb@                      sul+ud-a @ lösen @ INT @ verb @ 
 	7′         taʾ+akkā@Mann@{ a → .ABS}@noun@               taʾ+akka @ Mann @ { a  → .ABS} @ noun @ 
 	9′         sul+ūd-a@lösen@{ a → INT}@verb@               sul+ud-a @ lösen @ { a  → INT} @ verb @ 
-KBo 27.208
+CTH_774_mit_Annotation/KBo 27.208
 	8′         idi-v-āž-a=an@Körper@{ a → 2POSS.SG-PL-DAT/ESS=CON}@noun@ idi-v-āž-a=an @ Körper; Bezug @ { a  → 2POSS.SG-PL-DAT/ESS=CON} @ noun @ 
 	8′         idi-v-āž-a=n@Körper@{ a → 2POSS.SG-PL-DAT/ESS=3SG.ABS}@noun@ idi-v-āž-a=n @ Körper; Bezug @ { a  → 2POSS.SG-PL-DAT/ESS=3SG.ABS} @ noun @ 
 	8′         idi-iffe-až-a=an@Körper@{ a → 1POSS-PL-DAT/ESS=CON}@noun@ idi-iffe-až-a=an @ Körper; Bezug @ { a  → 1POSS-PL-DAT/ESS=CON} @ noun @ 
 	8′         idi-iffe-āž-a=n@Körper@{ a → 1POSS-PL-DAT/ESS=3SG.ABS}@noun@ idi-iffe-āž-a=n @ Körper; Bezug @ { a  → 1POSS-PL-DAT/ESS=3SG.ABS} @ noun @ 
-KBo 27.209
+CTH_774_mit_Annotation/KBo 27.209
 	Vs. 2′     fandi-i-da@rechte Seite; rechts@{ a → 3POSS.SG-DIR}@noun@ fandi-i-da @ recht, rechte Seite; rechts @ { a  → 3POSS.SG-DIR} @ noun @ 
 	Vs. 2′     šaphaldi-i-da@links; linke Seite@{ a → 3POSS.SG-DIR}@noun@ šaphaldi-i-da @ linke Seite; links @ { a  → 3POSS.SG-DIR} @ noun @ 
 	Vs. 4′     fand+a+ni@rechte Seite; rechts@.ABS@noun@     fand+a+ni @ recht, rechte Seite; rechts @ .ABS @ noun @ 
@@ -278,7 +278,7 @@ KBo 27.209
 	Vs. 6′     fand+a+ni@rechte Seite; rechts@.ABS@noun@     fand+a+ni @ recht, rechte Seite; rechts @ .ABS @ noun @ 
 	Rs. 1′     ažni-ž@Gallenblase@{ a → ERG}@noun@           ažne-ž @ Gallenblase @ { a  → ERG} @ noun @ 
 	Rs. 5′     ažni-ž@Gallenblase@{ a → ERG}@noun@           ažne-ž @ Gallenblase @ { a  → ERG} @ noun @ 
-KBo 27.210
+CTH_774_mit_Annotation/KBo 27.210
 	Rs. r. Kol. 7′ igi-ne=mma@Mitte@{ a → ABL/INS=2SG.ABS}@noun@ egi-ne=mma @ Inneres, innere; Mitte @ { a  → ABL/INS=2SG.ABS} @ noun @ 
 	Rs. r. Kol. 7′ igi-ne-e=mma@Mitte@{ a → RELAT.SG-DIR/LOC=2SG.ABS}@noun@ egi-ne-e=mma @ Inneres, innere; Mitte @ { a  → RELAT.SG-DIR/LOC=2SG.ABS} @ noun @ 
 	Rs. r. Kol. 8′ sig-al-d-ož-i@u.B.@{ a → al-d-PST-ANTIP}@verb@ sig+al-d-ož-i @ u.B. @ { a  → d-PST-ANTIP} @ verb @ 
@@ -293,7 +293,7 @@ KBo 27.210
 	Rs. lk. Kol. 6′ ušš-e@gehen@{ a → STAT}@verb@                 ōšš-e @ gehen @ { a  → STAT} @ verb @ 
 	Rs. lk. Kol. 12′ ušš-ē@gehen@{ a → STAT}@verb@                 ōšš-ē @ gehen @ { a  → STAT} @ verb @ 
 	Rs. lk. Kol. 12′ ušše@u.B.@{ a → .ABS}@noun@                   uššē @ u.B. @ { a  → .ABS} @ noun @ 
-KBo 27.211
+CTH_774_mit_Annotation/KBo 27.211
 	Vs. 2      igi-i-da@Mitte@3POSS.SG-DIR@noun@             egi-i-da @ Inneres, innere; Mitte @ 3POSS.SG-DIR @ noun @ 
 	Vs. 3      e@falls; wenn@@ CONJ@                         ai @ falls; wenn @  @ CONJ @ 
 	Vs. 3      taʾ+akkā@Mann@{ a → .ABS}@noun@               taʾ+akka @ Mann @ { a  → .ABS} @ noun @ 
@@ -303,13 +303,13 @@ KBo 27.211
 	Rs. 7′     fand+a+ni-i-ve@rechte Seite; rechts@{ a → 3POSS.SG-GEN}@noun@ fand+a+ni-i-ve @ recht, rechte Seite; rechts @ { a  → 3POSS.SG-GEN} @ noun @ 
 	Rs. 8′     evri@Herr@{ a → .ABS}@noun@                   ēvri @ Herr @ { a  → .ABS} @ noun @ 
 	Rs. 8′     BA.ÚŠ-ed-a@sterben; sterben lassen@FUT-3A.SG@noun@ BA.ÚŠ-ed-a @ sterben; sterben lassen @ FUT-3A.SG @ verb @ 
-KBo 27.212
+CTH_774_mit_Annotation/KBo 27.212
 	Vs. 3      ḫari@Weg@.ABS@noun@                           ḫāri @ Weg @ .ABS @ noun @ 
 	Vs. 4      šatt-ed-a@ergreifen@FUT-3A.SG@verb@           šātt-ed-a @ ergreifen @ FUT-3A.SG @ verb @ 
 	Vs. 8      torobe-nē-ve@Feind@RELAT.SG-GEN@noun@         torove-nē-ve @ Feind @ RELAT.SG-GEN @ noun @ 
 	Rs. 3′     torobe@Feind@.ABS@noun@                       torove @ Feind @ .ABS @ noun @ 
 	Rs. 3′     torobe-ne-ve@Feind@{ a → RELAT.SG-GEN}@noun@  torove-ne-ve @ Feind @ { a  → RELAT.SG-GEN} @ noun @ 
-KBo 27.213
+CTH_774_mit_Annotation/KBo 27.213
 	1′         urnirni-va@Leberfinger@{ a → DAT}@noun@       urnir+ni-va @ Finger @ { a  → DAT} @ noun @ 
 	1′         ḫori-i-da@Schoß@{ a → 3POSS.SG-DIR}@noun@     ḫōri-i-da @ Schoß @ { a  → 3POSS.SG-DIR} @ noun @ 
 	3′         urnirni-va@Leberfinger@{ a → DAT}@noun@       urnir+ni-va @ Finger @ { a  → DAT} @ noun @ 
@@ -321,7 +321,7 @@ KBo 27.213
 	9′         urnirni-va@Leberfinger@{ a → DAT}@noun@       urnir+ni-va @ Finger @ { a  → DAT} @ noun @ 
 	10′        urnirni-va@Leberfinger@{ a → DAT}@noun@       urnir+ni-va @ Finger @ { a  → DAT} @ noun @ 
 	12′        urnirni-va@Leberfinger@{ a → DAT}@noun@       urnir+ni-va @ Finger @ { a  → DAT} @ noun @ 
-KBo 27.214
+CTH_774_mit_Annotation/KBo 27.214
 	Vs. II 1′  IMMEŠše-ne-ve@Wind@{ a → RELAT.SG-GEN}@noun@  IMše-ne-ve @ Wind @ { a  → RELAT.SG-GEN} @ noun @ 
 	Vs. II 1′  IMMEŠše-ne-ē@Wind@{ a → RELAT.SG-DIR/LOC}@noun@ IMše-ne-ē @ Wind @ { a  → RELAT.SG-DIR/LOC} @ noun @ 
 	Vs. II 1′  IMMEŠ-aš-e-ne-ē@Wind@{ a → PL-GEN-RELAT.SG-DIR/LOC}@noun@ IM.MEŠ-aš-e-ne-ē @ Winde @ { a  → PL-GEN-RELAT.SG-DIR/LOC} @ noun @ 
@@ -349,7 +349,7 @@ KBo 27.214
 	Rs. V 12   IMMEŠše-ne-ve@Wind@{ a → RELAT.SG-GEN}@noun@  IMše-ne-ve @ Wind @ { a  → RELAT.SG-GEN} @ noun @ 
 	Rs. V 12   IMMEŠše-ne-ē@Wind@{ a → RELAT.SG-DIR/LOC}@noun@ IMše-ne-ē @ Wind @ { a  → RELAT.SG-DIR/LOC} @ noun @ 
 	Rs. V 12   IMMEŠ-aš-e-ne-ē@Wind@{ a → PL-GEN-RELAT.SG-DIR/LOC}@noun@ IM.MEŠ-aš-e-ne-ē @ Winde @ { a  → PL-GEN-RELAT.SG-DIR/LOC} @ noun @ 
-KBo 27.215
+CTH_774_mit_Annotation/KBo 27.215
 	Vs.? 2′    IZBU-ne-ve@Missgeburt@{ a → RELAT.SG-GEN}@noun@ IZBUni-ne-ve @ Missgeburt @ { a  → RELAT.SG-GEN} @ noun @ 
 	Vs.? 2′    IZBU-ne-ē@Missgeburt@{ a → RELAT.SG-DIR/LOC}@noun@ IZBUni-ne-ē @ Missgeburt @ { a  → RELAT.SG-DIR/LOC} @ noun @ 
 	Vs.? 4′    IZBU-ne-ve@Missgeburt@RELAT.SG-GEN@noun@      IZBUni-ne-ve @ Missgeburt @ RELAT.SG-GEN @ noun @ 
@@ -391,9 +391,9 @@ KBo 27.215
 	Vs.? 19′   IZBU-ne-ē@Missgeburt@RELAT.SG-DIR/LOC@noun@   IZBUni-ne-ē @ Missgeburt @ RELAT.SG-DIR/LOC @ noun @ 
 	Vs.? 19′   nui-i=l@Ohr@3POSS.SG.ABS=3PL.ABS@noun@        noi-i=l @ Ohr @ 3POSS.SG.ABS=3PL.ABS @ noun @ 
 	Vs.? 20′   ever+n+akka@König@{ a → .ABS}@noun@           evri+n+akka @ König @ { a  → .ABS} @ noun @ 
-KBo 27.75
+CTH_774_mit_Annotation/KBo 27.75
 	5′         šīe@Fluss; Wasser@{ a → .ABS}@noun@           šie @ Wasser; Fluss @ { a  → .ABS} @ noun @ 
-KBo 32.223
+CTH_774_mit_Annotation/KBo 32.223
 	Vs. II 2   ever+n+akkā-ve@König@{ a → GEN}@noun@         evri+n+akka-ve @ König @ { a  → GEN} @ noun @ 
 	Vs. II 2   ḫū-i@rufen@{ a → ANTIP} { b → TR.IMP}@noun@   ḫō-i @ rufen @ { a  → ANTIP}{ b  → TR.IMP} @ verb @ 
 	Vs. II 4   igi-i-až-ā=ma@Mitte@{ a → 3POSS-PL-DAT/ESS=CON}@noun@ egi-i-až-ā=ma @ Inneres, innere; Mitte @ { a  → 3POSS-PL-DAT/ESS=CON} @ noun @ 
@@ -409,22 +409,22 @@ KBo 32.223
 	Rs. III 7′ tid-išt-ēd-i@u.B.@{ a → RES-FUT-ANTIP}@verb@  tīd-išt-ēd-i @ u.B. @ { a  → RES-FUT-ANTIP} @ verb @ 
 	Rs. III 7′ tid-išt-ēd-ī=l@u.B.@{ a → RES-FUT-ANTIP=3PL.ABS}@verb@ tīd-išt-ēd-ī=l @ u.B. @ { a  → RES-FUT-ANTIP=3PL.ABS} @ verb @ 
 	Rs. III 8′ amm-ēd-a@errreichen; gelangen lassen@FUT-3A.SG@verb@ amm-ēd-a @ erreichen; gelangen lassen @ FUT-3A.SG @ verb @ 
-KBo 33.106
+CTH_774_mit_Annotation/KBo 33.106
 	7′         ḫari-ie@Weg@{ a → 3POSS.SG.ABS}@noun@         ḫāri-ie @ Weg @ { a  → 3POSS.SG.ABS} @ noun @ 
 	7′         ḫari-i-e@Weg@{ a → 3POSS.SG-DIR/LOC}@noun@    ḫāri-i-e @ Weg @ { a  → 3POSS.SG-DIR/LOC} @ noun @ 
 	7′         ḫari-nē@Weg@{ a → ABL/INS}@noun@              ḫāri-nē @ Weg @ { a  → ABL/INS} @ noun @ 
 	7′         ḫari-ne-e@Weg@{ a → RELAT.SG-DIR/LOC}@noun@   ḫāri-ne-e @ Weg @ { a  → RELAT.SG-DIR/LOC} @ noun @ 
-KBo 33.109
+CTH_774_mit_Annotation/KBo 33.109
 	lk. Kol. 8″ tani-na@u.B.@{ a → RELAT.PL.ABS}@noun@        tāni-na @ u.B. @ { a  → RELAT.PL.ABS} @ noun @ 
 	r. Kol. 2′ tē-i-a-ma@sprechen@{ a → TR-3A.SG-NEG}@verb@  te-i-a-ma @ sprechen @ { a  → TR-3A.SG-NEG} @ verb @ 
 	r. Kol. 8′ pind-i=d@zurückbringen; zurückkehren; zurückkommen; zurückschicken@{ a → ANTIP=1SG.ABS}@verb@ pend-i=d @ zurückkehren; zurückbringen @ { a  → ANTIP=1SG.ABS} @ verb @ 
-KBo 33.112
+CTH_774_mit_Annotation/KBo 33.112
 	4′         torobe@Feind@{ a → .ABS}@noun@                torove @ Feind @ { a  → .ABS} @ noun @ 
 	7′         torobe-ne@Feind@{ a → ABL/INS}@noun@          torove-ne @ Feind @ { a  → ABL/INS} @ noun @ 
 	7′         torobe-ne-e@Feind@{ a → RELAT.SG-DIR/LOC}@noun@ torove-ne-e @ Feind @ { a  → RELAT.SG-DIR/LOC} @ noun @ 
 	9′         torobe-ne@Feind@{ a → ABL/INS}@noun@          torove-ne @ Feind @ { a  → ABL/INS} @ noun @ 
 	9′         torobe-ne-e@Feind@{ a → RELAT.SG-DIR/LOC}@noun@ torove-ne-e @ Feind @ { a  → RELAT.SG-DIR/LOC} @ noun @ 
-KBo 33.130
+CTH_774_mit_Annotation/KBo 33.130
 	Vs. I 2′   ḫabālgi@Eisen?@{ a → .ABS}@noun@              ḫabalgi @ Eisen? @ { a  → .ABS} @ noun @ 
 	Vs. I 6″   igi-i-da@Mitte@3POSS.SG-DIR@noun@             egi-i-da @ Inneres, innere; Mitte @ 3POSS.SG-DIR @ noun @ 
 	Rs. IV 7′  paġ-et-t-a@zerstören@{ a → FUT-PL.A-3A} { b → FUT-t-INT}@verb@ pāġ-et-t-a @ zerstören @ { a  → FUT-PL.A-3A}{ b  → FUT-t-INT} @ verb @ 
@@ -434,7 +434,7 @@ KBo 33.130
 	Rs. IV 10′ torobe-ne-ž=l@Feind@{ a → RELAT.SG-ERG=3PL.ABS}@noun@ torove-ne-ž=l @ Feind @ { a  → RELAT.SG-ERG=3PL.ABS} @ noun @ 
 	Rs. IV 10′ torobe-ne=l@Feind@{ a → ABl/INS=3PL.ABS}@noun@ torove-ne=l @ Feind @ { a  → ABl/INS=3PL.ABS} @ noun @ 
 	Rs. IV 10′ torobe-ne-e=l@Feind@{ a → RELAT.SG-DIR/LOC=3PL.ABS}@noun@ torove-ne-e=l @ Feind @ { a  → RELAT.SG-DIR/LOC=3PL.ABS} @ noun @ 
-KBo 33.134
+CTH_774_mit_Annotation/KBo 33.134
 	Vs. 2′     tan-ašt-i@machen@{ a → RES-ANTIP}@verb@       tān-ašt-i @ machen @ { a  → RES-ANTIP} @ verb @ 
 	Vs. 3′     torobe-ne@u.B.@{ a → ABL/INS}@noun@           torove-ne @ Feind @ { a  → ABL/INS} @ noun @ 
 	Vs. 3′     torobe-ne-e@Feind@{ a → RELAT.SG-DIR/LOC}@noun@ torove-ne-e @ Feind @ { a  → RELAT.SG-DIR/LOC} @ noun @ 
@@ -450,21 +450,21 @@ KBo 33.134
 	Rs. 12″    tie-a@Sache; Wort@{ a → ESS}@noun@            tīe-a @ Wort; Sache @ { a  → ESS} @ noun @ 
 	Rs. 12″    fōri-ēd-i@sehen@FUT-ANTIP@verb@               for-ēd-i @ sehen @ FUT-ANTIP @ verb @ 
 	Rs. 15″    BA.ÚŠ-ed-a@sterben; sterben lassen@{ a → FUT-3A.SG}@noun@ BA.ÚŠ-ed-a @ sterben; sterben lassen @ { a  → FUT-3A.SG} @ verb @ 
-KBo 33.135
+CTH_774_mit_Annotation/KBo 33.135
 	r. Kol. 5′ amm-ož-i=ma@errreichen; gelangen lassen@{ a → PST-ANTIP=CON}@verb@ amm-ož-i=ma @ erreichen; gelangen lassen @ { a  → PST-ANTIP=CON} @ verb @ 
 	r. Kol. 8′ e=ma@falls; wenn@=CON@CONJ@                   ai=ma @ falls; wenn @ =CON @ CONJ @ 
-KBo 33.51 {€1}
+CTH_774_mit_Annotation/KBo 33.51+
 	 {€1} 3′   edi-i-da@Körper@3POSS.SG-DIR@noun@            idi-i-da @ Körper; Bezug @ 3POSS.SG-DIR @ noun @ 
-KBo 35.1
+CTH_774_mit_Annotation/KBo 35.1
 	lk. Kol. 3′ āšt+a+kkā-da=m@Frau@{ a → DIR=CON}@noun@      aštaga-da=m @ Frau @ { a  → DIR=CON} @ noun @ 
 	lk. Kol. 9′ paž-ēd-a@eintreten; hineinbringen@{ a → FUT-3A.SG}@verb@ faž-ēd-a @ eintreten, hineinbringen @ { a  → FUT-3A.SG} @ verb @ 
 	lk. Kol. 10′ Allāni-ne-va@DN@{ a → RELAT.SG-DAT}@noun@     Āllāni-ne-va @ DN @ { a  → RELAT.SG-DAT} @ noun @ 
 	lk. Kol. 11′ šīni=ma@ferner@{ a → =CON} { b → =2SG.ABS}@ADV@ šini=ma @ wieder; weiterhin @ { a  → =CON}{ b  → =2SG.ABS} @ ADV @ 
-KBo 35.2
+CTH_774_mit_Annotation/KBo 35.2
 	r. Kol. 2′ kēl-ād-i@wohl machen; wohl sein@{ a → ād-ANTIP}@verb@ kēl-ād-i @ wohl sein; wohl machen @ { a  → ād-ANTIP} @ verb @ 
 	r. Kol. 4′ fand+a+ni@rechte Seite; rechts@.ABS@noun@     fand+a+ni @ recht, rechte Seite; rechts @ .ABS @ noun @ 
 	r. Kol. 6′ nāž-i@u.B.@{ a → ANTIP}@verb@                 naž-i @ u.B. @ { a  → ANTIP} @ verb @ 
-KBo 35.24 {€2}
+CTH_774_mit_Annotation/KBo 35.24+
 	 {€1} Vs. II 3 āʾ-ašt-et-t-a@u.B.@{ a → RES-FUT-PL.A-3A}@verb@ aʾ-ašt-et-t-a @ u.B. @ { a  → RES-FUT-PL.A-3A} @ verb @ 
 	 {€1} Vs. II 3 āʾ-ašt-i=tta@u.B.@{ a → RES-ANTIP=1SG.ABS}@verb@ aʾ-ašt-i=tta @ u.B. @ { a  → RES-ANTIP=1SG.ABS} @ verb @ 
 	 {€2+1} 6′/Rs. III 1′ pēd+ar+i-ne-ž@Rind@RELAT.SG-ERG@noun@         ped+ar+i-ne-ž @ Rind @ RELAT.SG-ERG @ noun @ 
@@ -475,7 +475,7 @@ KBo 35.24 {€2}
 	 {€2+1} 10′/Rs. III 5′ pēd+ar+i-ne-ž@Rind@{ a → RELAT.SG-ERG}@noun@  ped+ar+i-ne-ž @ Rind @ { a  → RELAT.SG-ERG} @ noun @ 
 	 {€2+1} 12′/Rs. III 7′ tari-a@u.B.@{ a → ESS}@noun@                  tāri-a @ u.B. @ { a  → ESS} @ noun @ 
 	 {€2+1} 12′/Rs. III 7′ tar-a@u.B.@{ a → INT}@verb@                   tār-a @ u.B. @ { a  → INT} @ verb @ 
-KBo 35.3
+CTH_774_mit_Annotation/KBo 35.3
 	r. Kol. 1′ šaure-ne@Waffe@{ a → ABL/INS}@noun@           šauri-ne @ Waffe @ { a  → ABL/INS} @ noun @ 
 	r. Kol. 2′ torobe@Feind@.ABS@noun@                       torove @ Feind @ .ABS @ noun @ 
 	r. Kol. 2′ ever+ni@König@{ a → .ABS}@noun@               evri+ni @ König @ { a  → .ABS} @ noun @ 
@@ -486,15 +486,15 @@ KBo 35.3
 	r. Kol. 5′ adal@stark; der Starke@{ a → .ABS}@noun@      adāl @ stark; der Starke @ { a  → .ABS} @ noun @ 
 	r. Kol. 5′ evre+ni-na-aš-ta@König@{ a → RELAT.PL-PL-DIR}@noun@ evri+ni-na-aš-ta @ König @ { a  → RELAT.PL-PL-DIR} @ noun @ 
 	r. Kol. 5′ ever+n+akka-na-aš-ta@König@{ a → RELAT.PL-PL-DIR}@noun@ evri+n+akka-na-aš-ta @ König @ { a  → RELAT.PL-PL-DIR} @ noun @ 
-KBo 35.4
+CTH_774_mit_Annotation/KBo 35.4
 	3′         ašḫu@oben@@ ADV@                              āšḫo @ oben @  @ ADV @ 
 	6′         ḫa-i=d@nehmen@{ a → ANTIP=1SG.ABS}@verb@      ḫā-i=d @ nehmen @ { a  → ANTIP=1SG.ABS} @ verb @ 
 	8′         ašḫu@oben@@ ADV@                              āšḫo @ oben @  @ ADV @ 
-KBo 49.60
+CTH_774_mit_Annotation/KBo 49.60
 	4′         ašte@Ehefrau; Frau@{ a → .ABS}@noun@          āšte @ Frau; Ehefrau @ { a  → .ABS} @ noun @ 
 	6′         Teššop-ve=n@DN@{ a → GEN=CON} { b → GEN=3SG.ABS}@noun@ Teššob-ve=n @ DN @ { a  → GEN=CON}{ b  → GEN=3SG.ABS} @ noun @ 
 	6′         ḫōtḫi@Preisung@{ a → .ABS}@noun@              ḫutḫi @ Preisung @ { a  → .ABS} @ noun @ 
-KBo 62.54
+CTH_774_mit_Annotation/KBo 62.54
 	Vs. 1′     ažni@Gallenblase@{ a → .ABS}@noun@            ažne @ Gallenblase @ { a  → .ABS} @ noun @ 
 	Vs. 4′     fand+a+ni-i-da@rechts; rechte Seite@{ a → 3POSS.SG-DIR}@noun@ fand+a+ni-i-da @ recht, rechte Seite; rechts @ { a  → 3POSS.SG-DIR} @ noun @ 
 	Vs. 6′     šari-a@u.B.@{ a → ESS}@noun@                  šāri-a @ u.B. @ { a  → ESS} @ noun @ 
@@ -507,12 +507,12 @@ KBo 62.54
 	Rs. 4′     ažni-ve@Gallenblase@{ a → GEN}@noun@          ažne-ve @ Gallenblase @ { a  → GEN} @ noun @ 
 	Rs. 4′     paġi@Kopf@{ a → .ABS}@noun@                   pāġi @ Kopf @ { a  → .ABS} @ noun @ 
 	Rs. 5′     ever+n+akka=nna@König@{ a → .ABS=3SG.ABS}@noun@ evri+n+akka=nna @ König @ { a  → .ABS=3SG.ABS} @ noun @ 
-KBo 7.65
+CTH_774_mit_Annotation/KBo 7.65
 	Vs. I 1    ḫaver+ni@Lamm@{ a → .ABS}@noun@               ḫavēr+ni @ Lamm @ { a  → .ABS} @ noun @ 
 	Vs. I 2    fand+a+ni@rechte Seite; rechts@.ABS@noun@     fand+a+ni @ recht, rechte Seite; rechts @ .ABS @ noun @ 
 	Vs. I 2    paġi@Kopf@{ a → .ABS}@noun@                   pāġi @ Kopf @ { a  → .ABS} @ noun @ 
 	Vs. I 5    ḫaver+ni@Lamm@{ a → .ABS}@noun@               ḫavēr+ni @ Lamm @ { a  → .ABS} @ noun @ 
-KBo 8.135
+CTH_774_mit_Annotation/KBo 8.135
 	Vs. r. Kol. 1 ažni-ve@Gallenblase@{ a → GEN}@noun@          ažne-ve @ Gallenblase @ { a  → GEN} @ noun @ 
 	Vs. r. Kol. 4 ažni-ve@Gallenblase@GEN@noun@                 ažne-ve @ Gallenblase @ GEN @ noun @ 
 	Vs. r. Kol. 6 ažni@Gallenblase@.ABS@noun@                   ažne @ Gallenblase @ .ABS @ noun @ 
@@ -521,20 +521,20 @@ KBo 8.135
 	Rs. r. Kol. 3′ tumni-a@vier@{ a → ESS}@noun@                 tumni-a @ vier @ { a  → ESS} @ NUM @ 
 	Rs. r. Kol. 5′ ažni@Gallenblase@.ABS@noun@                   ažne @ Gallenblase @ .ABS @ noun @ 
 	Rs. r. Kol. 6′ ažni@Gallenblase@.ABS@noun@                   ažne @ Gallenblase @ .ABS @ noun @ 
-KBo 8.137
+CTH_774_mit_Annotation/KBo 8.137
 	4′         tid-išt-ēd-i@u.B.@{ a → RES-FUT-ANTIP}@verb@  tīd-išt-ēd-i @ u.B. @ { a  → RES-FUT-ANTIP} @ verb @ 
 	8′         fandi-ne@rechte Seite; rechts@{ a → ABL/INS}@noun@ fandi-ne @ recht, rechte Seite; rechts @ { a  → ABL/INS} @ noun @ 
 	8′         fandi-ne-e@rechte Seite; rechts@{ a → RELAT.SG-DIR/LOC}@noun@ fandi-ne-e @ recht, rechte Seite; rechts @ { a  → RELAT.SG-DIR/LOC} @ noun @ 
-KBo 8.146
+CTH_774_mit_Annotation/KBo 8.146
 	1′         pēd+ar+i-ne-ž@Rind@{ a → RELAT.SG-ERG}@noun@  ped+ar+i-ne-ž @ Rind @ { a  → RELAT.SG-ERG} @ noun @ 
 	3′         ēiari-ne@Löwe@{ a → ABL/INS}@noun@            ēari-ne @ Löwe @ { a  → ABL/INS} @ noun @ 
 	5′         pēd+ar+i-ne-ž@Rind@{ a → RELAT.SG-ERG}@noun@  ped+ar+i-ne-ž @ Rind @ { a  → RELAT.SG-ERG} @ noun @ 
 	6′         edi-i-da@Körper@{ a → 3POSS.SG-DIR}@noun@     idi-i-da @ Körper; Bezug @ { a  → 3POSS.SG-DIR} @ noun @ 
-KUB 27.44
+CTH_774_mit_Annotation/KUB 27.44
 	4′         ažni-ž@Gallenblase@{ a → ERG}@noun@           ažne-ž @ Gallenblase @ { a  → ERG} @ noun @ 
 	4′         fand+a+ni@rechte Seite; rechts@{ a → .ABS}@noun@ fand+a+ni @ recht, rechte Seite; rechts @ { a  → .ABS} @ noun @ 
 	9′         ažni-ž@Gallenblase@{ a → ERG}@noun@           ažne-ž @ Gallenblase @ { a  → ERG} @ noun @ 
-KUB 29.12
+CTH_774_mit_Annotation/KUB 29.12
 	Vs. I(?) 3′ IZBU-ne-e@Missgeburt@{ a → RELAT.SG-DIR/LOC}@noun@ IZBUni-ne-e @ Missgeburt @ { a  → RELAT.SG-DIR/LOC} @ noun @ 
 	Vs. I(?) 5′ IZBU-ne-e@Missgeburt@{ a → RELAT.SG-DIR/LOC}@noun@ IZBUni-ne-e @ Missgeburt @ { a  → RELAT.SG-DIR/LOC} @ noun @ 
 	Vs. I(?) 5′ paġi@Kopf@.ABS@noun@                          pāġi @ Kopf @ .ABS @ noun @ 
@@ -542,7 +542,7 @@ KUB 29.12
 	Vs. I(?) 7′ IZBU-ne-e@Missgeburt@RELAT.SG-DIR/LOC@noun@   IZBUni-ne-e @ Missgeburt @ RELAT.SG-DIR/LOC @ noun @ 
 	Vs. I(?) 8′ evri@Herr@{ a → .ABS}@noun@                   ēvri @ Herr @ { a  → .ABS} @ noun @ 
 	Vs. I(?) 9′ IZBU-ne-e@Missgeburt@RELAT.SG-DIR/LOC@noun@   IZBUni-ne-e @ Missgeburt @ RELAT.SG-DIR/LOC @ noun @ 
-KUB 45.31
+CTH_774_mit_Annotation/KUB 45.31
 	r. Kol. 1′ fand+a+ni-i-da@rechte Seite; rechts@{ a → 3POSS.SG-DIR}@noun@ fand+a+ni-i-da @ recht, rechte Seite; rechts @ { a  → 3POSS.SG-DIR} @ noun @ 
 	r. Kol. 1′ fand+a+ni-da@rechte Seite; rechts@{ a → DIR}@noun@ fand+a+ni-da @ recht, rechte Seite; rechts @ { a  → DIR} @ noun @ 
 	r. Kol. 2′ Teššop-pa@DN@{ a → DAT}@noun@                 Teššob-pa @ DN @ { a  → DAT} @ noun @ 
@@ -558,15 +558,15 @@ KUB 45.31
 	r. Kol. 11′ ad+a+ni-da@Schemel@{ a → DIR}@noun@           ad+ā+ni-da @ Schemel @ { a  → DIR} @ noun @ 
 	r. Kol. 12′ Allani-va@DN@{ a → DAT}@noun@                 Āllāni-va @ DN @ { a  → DAT} @ noun @ 
 	r. Kol. 13′ kēl-ād-i@wohl machen; wohl sein@{ a → ād-ANTIP}@verb@ kēl-ād-i @ wohl sein; wohl machen @ { a  → ād-ANTIP} @ verb @ 
-KUB 45.70
+CTH_774_mit_Annotation/KUB 45.70
 	Vs. 2′     igi-i-da@Mitte@3POSS.SG-DIR@noun@             egi-i-da @ Inneres, innere; Mitte @ 3POSS.SG-DIR @ noun @ 
 	Rs. 1′     paġ-a@u.B.@{ a → INT}@verb@                   pāġ-a @ u.B. @ { a  → INT} @ verb @ 
 	Rs. 3′     ašḫu-ne=lla@Oberseite@{ a → ABL/INS=3PL.ABS}@noun@ ašḫo-ne=lla @ Oberseite @ { a  → ABL/INS=3PL.ABS} @ noun @ 
 	Rs. 3′     ašḫu-ne-e=lla@Oberseite@{ a → RELAT.SG-DIR/LOC=3PL.ABS}@noun@ ašḫo-ne-e=lla @ Oberseite @ { a  → RELAT.SG-DIR/LOC=3PL.ABS} @ noun @ 
-KUB 47.92
+CTH_774_mit_Annotation/KUB 47.92
 	Vs. 2′     šukki-a=l@eins; zum einen@{ a → ESS=3PL.ABS}@noun@ šokki-a=l @ zum einen @ { a  → ESS=3PL.ABS} @ ADV @ 
 	Rs. 2      avē-š=nna=m@wer; jeder@{ a → ERG=3SG.ABS=CON}@PRON@ ave-š=nna=m @ wer; jeder @ { a  → ERG=3SG.ABS=CON} @ PRON @ 
-KUB 47.93
+CTH_774_mit_Annotation/KUB 47.93
 	Vs. 2      torobe-ne-ve=ma@Feind@{ a → RELAT.SG-GEN=CON}@noun@ torove-ne-ve=ma @ Feind @ { a  → RELAT.SG-GEN=CON} @ noun @ 
 	Vs. 2      torobe-ne@Feind@{ a → ABL/INS}@noun@          torove-ne @ Feind @ { a  → ABL/INS} @ noun @ 
 	Vs. 2      torobe-ne-e@Feind@{ a → RELAT.SG-DIR/LOC}@noun@ torove-ne-e @ Feind @ { a  → RELAT.SG-DIR/LOC} @ noun @ 
@@ -584,12 +584,12 @@ KUB 47.93
 	Rs. 8′     ub-ēd-a@töten@{ a → FUT-3A.SG}@verb@          ub-ēd-a @ töten; schlachten @ { a  → FUT-3A.SG} @ verb @ 
 	Rs. 9′     uw+ētt+a+ni@u.B.@{ a → .ABS}@noun@            uw+ett+a+ni @ u.B. @ { a  → .ABS} @ noun @ 
 	Rs. 10′    e=ma@falls; wenn@=CON@CONJ@                   ai=ma @ falls; wenn @ =CON @ CONJ @ 
-KUB 47.94
+CTH_774_mit_Annotation/KUB 47.94
 	Rs. III? 6′ šatt-ed-a@ergreifen@{ a → FUT-3A.SG}@verb@    šātt-ed-a @ ergreifen @ { a  → FUT-3A.SG} @ verb @ 
 	Rs. III? 7′ fandi=n@rechts; rechte Seite@{ a → .ABS=3SG.ABS}@noun@ fandi=n @ recht, rechte Seite; rechts @ { a  → .ABS=3SG.ABS} @ noun @ 
 	Rs. III? 7′ fandi-n@rechts; rechte Seite@{ a → ABL/INS}@noun@ fandi-n @ recht, rechte Seite; rechts @ { a  → ABL/INS} @ noun @ 
 	Rs. III? 7′ ḫari@Weg@{ a → .ABS}@noun@                    ḫāri @ Weg @ { a  → .ABS} @ noun @ 
-KUB 47.96
+CTH_774_mit_Annotation/KUB 47.96
 	Vs. 1      IZBU-ne-ve@Missgeburt@RELAT.SG-GEN@noun@      IZBUni-ne-ve @ Missgeburt @ RELAT.SG-GEN @ noun @ 
 	Vs. 1      IZBU-ne-ē@Missgeburt@RELAT.SG-DIR/LOC@noun@   IZBUni-ne-ē @ Missgeburt @ RELAT.SG-DIR/LOC @ noun @ 
 	Vs. 2      ever+n+akka-ž@König@{ a → ERG}@noun@          evri+n+akka-ž @ König @ { a  → ERG} @ noun @ 
@@ -598,17 +598,17 @@ KUB 47.96
 	Vs. 6      ši-i=l@Auge@{ a → 3POSS.SG.ABS=3PL.ABS}@noun@ šī-i=l @ Auge @ { a  → 3POSS.SG.ABS=3PL.ABS} @ noun @ 
 	Vs. 8      ši-i=l@Auge@{ a → 3POSS.SG.ABS=3PL.ABS}@noun@ šī-i=l @ Auge @ { a  → 3POSS.SG.ABS=3PL.ABS} @ noun @ 
 	Vs. 9      nāu+ni@Weide@{ a → .ABS}@noun@                nau+ni @ Weide @ { a  → .ABS} @ noun @ 
-Line Vs. 11 in KUB 47.96 is not marked for language.
+Line Vs. 11 in CTH_774_mit_Annotation/KUB 47.96 is not marked for language.
 	Rs. 2′     pal-aġ-a@kennen; wissen@{ a → aġ-INT} { b → aġ-3A.SG}@verb@ pāl-aġ-a @ wissen; kennen @ { a  → aġ-INT}{ b  → aġ-3A.SG} @ verb @ 
 	Rs. 2′     pal-aḫḫ-a@kennen; wissen@{ a → aḫḫ-INT} { b → aḫḫ-3A.SG}@verb@ pāl-aḫḫ-a @ wissen; kennen @ { a  → aḫḫ-INT}{ b  → aḫḫ-3A.SG} @ verb @ 
 	Rs. 2′     pal-aʾ-a@kennen; wissen@{ a → aʾ-INT} { b → aʾ-3A.SG}@verb@ pāl-aʾ-a @ wissen; kennen @ { a  → aʾ-INT}{ b  → aʾ-3A.SG} @ verb @ 
 	Rs. 5′     igi-i-da@Mitte@{ a → 3POSS.SG-DIR}@noun@      egi-i-da @ Inneres, innere; Mitte @ { a  → 3POSS.SG-DIR} @ noun @ 
-KUB 8.32
+CTH_774_mit_Annotation/KUB 8.32
 	2′         ag-i-eva@aufnehmen; aufrichten; erheben; heraufkommen@{ a → MOD.ACT-POT}@verb@ ag-i-eva @ aufnehmen; erheben; heraufkommen; aufrichten @ { a  → MOD.ACT-POT} @ verb @ 
 	4′         e=ma@falls; wenn@{ a → =CON}@CONJ@            ai=ma @ falls; wenn @ { a  → =CON} @ CONJ @ 
 	5′         igi-i-až-a@Mitte@{ a → 3POSS-PL-DAT/ESS}@noun@ egi-i-až-a @ Inneres, innere; Mitte @ { a  → 3POSS-PL-DAT/ESS} @ noun @ 
 	5′         ōšš-ō-l-eva@gehen@{ a → MOF.PAT-l-POT}@noun@  ōšš-ō-l-eva @ gehen @ { a  → MOF.PAT-l-POT} @ verb @ 
-KUB 8.47
+CTH_774_mit_Annotation/KUB 8.47
 	lk. Kol. 1′ ažni-va@Gallenblase@{ a → DAT}@noun@          ažne-va @ Gallenblase @ { a  → DAT} @ noun @ 
 	lk. Kol. 1′ igi-i-da@Mitte@{ a → 3POSS.SG-DIR}@noun@      egi-i-da @ Inneres, innere; Mitte @ { a  → 3POSS.SG-DIR} @ noun @ 
 	lk. Kol. 3′ ažni-va@Gallenblase@DAT@noun@                 ažne-va @ Gallenblase @ DAT @ noun @ 
@@ -620,15 +620,15 @@ KUB 8.47
 	r. Kol. 5′! ažni-va@Gallenblase@DAT@noun@                 ažne-va @ Gallenblase @ DAT @ noun @ 
 	r. Kol. 5′! igi-i-da@Mitte@{ a → 3POSS.SG-DIR}@noun@      egi-i-da @ Inneres, innere; Mitte @ { a  → 3POSS.SG-DIR} @ noun @ 
 	r. Kol. 7′! ažni-va@Gallenblase@{ a → DAT}@noun@          ažne-va @ Gallenblase @ { a  → DAT} @ noun @ 
-Line Vs. 11 in KUB 47.96 is not marked for language.
-KBo 35.108
+Line Vs. 11 in CTH_774_vorläufig/KUB 47.96 is not marked for language.
+CTH_775_mit_Annotation/KBo 35.108
 	r. Kol. 2′ mān-a=l@3PRON.SG@{ a → ESS=3PL.ABS}@PRON@     man-a=l @ 3PRON @ { a  → ESS=3PL.ABS} @ PRON @ 
 	r. Kol. 2′ māna=l@PRON.INDF@{ a → =3PL.ABS}@PRON@        mān+a=l @ PRON.INDF @ { a  → =3PL.ABS} @ PRON @ 
 	r. Kol. 3′ māt-t-a=l@weise sein@{ a → t-INT=3PL.ABS}@verb@ mād-t-a=l @ weise sein; weise machen @ { a  → t-INT=3PL.ABS} @ verb @ 
-KUB 27.31
+CTH_775_mit_Annotation/KUB 27.31
 	4′         āo@Siehe!@@ INTJ@                             aō @ Siehe! @  @ INTJ @ 
 	9′         ever+ni@König@{ a → .ABS}@noun@               evri+ni @ König @ { a  → .ABS} @ noun @ 
-KUB 27.38
+CTH_775_mit_Annotation/KUB 27.38
 	Vs. I 6′   pāba+ni-na-āž-e@Berg@{ a → RELAT.PL-PL-GEN}@noun@ paba+ni-na-āž-e @ Berg @ { a  → RELAT.PL-PL-GEN} @ noun @ 
 	Vs. I 7′   šīe-na-āž-e@Wasser; Fluss@{ a → RELAT.PL-PL-GEN}@noun@ šie-na-āž-e @ Wasser; Fluss @ { a  → RELAT.PL-PL-GEN} @ noun @ 
 	Vs. I 11′  Ḫassi-n@GN@{ a → ABL/INS}@noun@               Ḫassī-n @ GN @ { a  → ABL/INS} @ noun @ 
@@ -714,7 +714,7 @@ KUB 27.38
 	Rs. IV 30′ ḫavoro+ni-ne-e@Himmel@{ a → RELAT.SG-DIR/LOC}@noun@ ḫavoro+nni-ne-e @ Himmel @ { a  → RELAT.SG-DIR/LOC} @ noun @ 
 	Rs. IV 32′ tād+a+ni-ne@u.B.@{ a → ABL/INS}@noun@         tad+a+ni-ne @ u.B. @ { a  → ABL/INS} @ noun @ 
 	Rs. IV 32′ tād+a+ni-ne-e@u.B.@{ a → RELAT.SG-DIR/LOC}@noun@ tad+a+ni-ne-e @ u.B. @ { a  → RELAT.SG-DIR/LOC} @ noun @ 
-KUB 31.3
+CTH_775_mit_Annotation/KUB 31.3
 	Vs. 1      ti-ī-b@sprechen@{ a → ANTIP-b}@verb@          te-ī-b @ sprechen @ { a  → ANTIP-b} @ verb @ 
 	Vs. 3      šešt-i@u.B.@{ a → ANTIP}@verb@                šēšt-i @ u.B. @ { a  → ANTIP} @ verb @ 
 	Vs. 3      iža+mmi@u.B.@{ a → .ABS}@noun@                iža+mme @ u.B. @ { a  → .ABS} @ noun @ 
@@ -728,7 +728,7 @@ KUB 31.3
 	Rs. 8′     ēvri@Herr@{ a → .ABS}@noun@                   ēvri @ Herr @ { a  → .ABS} @ noun @ 
 	Rs. 12′    iža+mmē-ne@u.B.@{ a → ABL}@noun@              iža+mme-ne @ u.B. @ { a  → ABL} @ noun @ 
 	Rs. 12′    iža+mmē-ne-e@u.B.@{ a → RELAT.SG-DIR/LOC}@noun@ iža+mme-ne-e @ u.B. @ { a  → RELAT.SG-DIR/LOC} @ noun @ 
-KUB 45.25
+CTH_775_mit_Annotation/KUB 45.25
 	Vs. II 4   šidōri@Mädchen; junge Frau@.ABS@noun@         šid+ō+ri @ Mädchen; junge Frau @ .ABS @ noun @ 
 	Vs. II 4   Allāni@DN@.ABS@noun@                          Āllāni @ DN @ .ABS @ noun @ 
 	Vs. II 6   ever+ni@König@{ a → .ABS}@noun@               evri+ni @ König @ { a  → .ABS} @ noun @ 
@@ -737,7 +737,7 @@ KUB 45.25
 	Vs. II 10  ever+ni@König@{ a → .ABS}@noun@               evri+ni @ König @ { a  → .ABS} @ noun @ 
 	Vs. II 12  ever+ni@König@{ a → .ABS}@noun@               evri+ni @ König @ { a  → .ABS} @ noun @ 
 	Rs. III 4′ ao@Siehe!@@ INTJ@                             aō @ Siehe! @  @ INTJ @ 
-KBo 27.217
+CTH_776_mit_Annotation/KBo 27.217
 	Vs. I 9′   kēški@dritter@{ a → .ABS}@NUM@                keški @ dritter @ { a  → .ABS} @ NUM @ 
 	Vs. I 11′  eman+že@zehnter@{ a → .ABS}@noun@             eman+že @ zehnter @ { a  → .ABS} @ NUM @ 
 	Vs. I 15′  šīe@Fluss; Wasser@.ABS@noun@                  šie @ Wasser; Fluss @ .ABS @ noun @ 
@@ -805,7 +805,7 @@ KBo 27.217
 	Rs. IV 42′ ḫāž+ār+i@Öl@.ABS@noun@                        ḫāž+ar+i @ Öl @ .ABS @ noun @ 
 	Rs. IV 42′ ḫāž-ār-i@hören; salben@ITER-ANTIP@verb@       ḫāž-ār-i @ salben @ ITER-ANTIP @ verb @ 
 	Rs. IV 42′ ḫāž-ār-i@hören; salben@ITER-ANTIP@verb@       ḫāž-ār-i @ salben @ ITER-ANTIP @ verb @ 
-KBo 33.137 {€1} + KBo 54.231 {€2} + ABoT 2.249 {€3}
+CTH_776_mit_Annotation/KBo 33.137+
 	 {€2+1} Vs. II 1′/1′ āšt-an-ōd-o-m@u.B.@{ a → an-NEG-TR.PFV-3A.SG}@verb@ ašt-an-ōd-o-m @ u.B. @ { a  → an-NEG-TR.PFV-3A.SG} @ verb @ 
 	 {€2+1} Vs. II 1′/1′ āšti-a@Ehefrau; Frau@{ a → ESS}@noun@         āšte-a @ Frau; Ehefrau @ { a  → ESS} @ noun @ 
 	 {€2+1} Vs. II 1′/1′ nōd-o-m@u.B.@{ a → TR.PFV-3A.SG}@verb@        nūd-o-m @ u.B. @ { a  → TR.PFV-3A.SG} @ verb @ 
@@ -822,7 +822,7 @@ KBo 33.137 {€1} + KBo 54.231 {€2} + ABoT 2.249 {€3}
 	 {€3+1} Vs. II? 3′/6′ tive-na@Sache; Wort@{ a → RELAT.PL.ABS}@noun@ tīve-na @ Wort; Sache @ { a  → RELAT.PL.ABS} @ noun @ 
 	 {€3+1} Vs. II? 4′/7′ al-u+m+āi@sprechen@{ a → CVB}@NF@             al-u+m+āi @ sprechen @ { a  → CVB} @ verb @ 
 	 {€3+1} Vs. II? 6′/9′ ḫōruppi@Rhyton@{ a → .ABS}@noun@              ḫūruffe @ Rhyton @ { a  → .ABS} @ noun @ 
-KBo 33.202
+CTH_776_mit_Annotation/KBo 33.202
 	Vs. 4′     uwī-ž@Brot@ERG@noun@                          uwi-ž @ Brot @ ERG @ noun @ 
 	Vs. 5′     āl+ō+re@u.B.@{ a → .ABS}@noun@                al+o+re @ u.B. @ { a  → .ABS} @ noun @ 
 	Vs. 5′     Teššop-pe@DN@{ a → GEN}@noun@                 Teššob-pe @ DN @ { a  → GEN} @ noun @ 
@@ -844,7 +844,7 @@ KBo 33.202
 	Rs. 20′    uwī-ž@Brot@ERG@noun@                          uwi-ž @ Brot @ ERG @ noun @ 
 	Rs. 20′    Sūwaḫḫu@u.B.@{ a → .ABS}@noun@                Suwaḫḫu @ GN @ { a  → .ABS} @ noun @ 
 	Rs. 23′    uwī-ž@Brot@ERG@noun@                          uwi-ž @ Brot @ ERG @ noun @ 
-KBo 33.203
+CTH_776_mit_Annotation/KBo 33.203
 	2′         al+ū+re-na@u.B.@{ a → RELAT.PL.ABS}@noun@     al+o+re-na @ u.B. @ { a  → RELAT.PL.ABS} @ noun @ 
 	3′         kul+i+m+a+šše-na-āž-a@u.B.@{ a → RELAT.PL-PL-DAT/ESS}@noun@ kul+i+m+ā+šše-na-āž-a @ u.B. @ { a  → RELAT.PL-PL-DAT/ESS} @ noun @ 
 	3′         ēġli+ana-ž@Rettung@ERG@noun@                  eġli+ana-ž @ Rettung @ ERG @ noun @ 
@@ -856,7 +856,7 @@ KBo 33.203
 	9′         šīe-na-až-a@Fluss; Wasser@{ a → RELAT.PL-PL-DAT/ESS}@noun@ šie-na-až-a @ Wasser; Fluss @ { a  → RELAT.PL-PL-DAT/ESS} @ noun @ 
 	10′        šōni-i-a@Hand@3POSS.SG-ESS@noun@              šō+ni-i-a @ Hand @ 3POSS.SG-ESS @ noun @ 
 	10′        pud+ūl+i+m+a+šše-na-až-a@u.B.@{ a → RELAT.PL-PL-DAT/ESS}@noun@ pud+ul+i+m+a+šše-na-až-a @ u.B. @ { a  → RELAT.PL-PL-DAT/ESS} @ noun @ 
-KBo 33.205{€1}
+CTH_776_mit_Annotation/KBo 33.205+
 	{€2+1} 3′/Vs. I 3′ uwī-ž@Brot@{ a → ERG}@noun@                   uwi-ž @ Brot @ { a  → ERG} @ noun @ 
 	{€2+1} 3′/Vs. I 3′ šia@Fluss; Wasser@{ a → .ABS}@noun@           šie @ Wasser; Fluss @ { a  → .ABS} @ noun @ 
 	{€2+1} 3′/Vs. I 3′ šie-a@Fluss; Wasser@{ a → ESS}@noun@          šie-a @ Wasser; Fluss @ { a  → ESS} @ noun @ 
@@ -980,7 +980,7 @@ KBo 33.205{€1}
 	{€3} Rs. IV 24 šīe-na@Fluss; Wasser@{ a → RELAT.PL.ABS}@noun@ šie-na @ Wasser; Fluss @ { a  → RELAT.PL.ABS} @ noun @ 
 	{€3} Rs. IV 25 šīe-na@Fluss; Wasser@RELAT.PL.ABS@noun@       šie-na @ Wasser; Fluss @ RELAT.PL.ABS @ noun @ 
 	{€3} Rs. IV 26 šīe-na@Fluss; Wasser@RELAT.PL.ABS@noun@       šie-na @ Wasser; Fluss @ RELAT.PL.ABS @ noun @ 
-KBo 35.183{€1}
+CTH_776_mit_Annotation/KBo 35.183+
 	{€2} Vs. I 12′ šia@Fluss; Wasser@{ a → .ABS}@noun@           šie @ Wasser; Fluss @ { a  → .ABS} @ noun @ 
 	{€2} Vs. I 12′ šie-a@Fluss; Wasser@{ a → ESS}@noun@          šie-a @ Wasser; Fluss @ { a  → ESS} @ noun @ 
 	{€2} Vs. I 12′ ḫavōro+ni-ne-ve-na@Himmel@{ a → RELAT.SG-GEN-RELAT.PL.ABS}@noun@ ḫavoro+ni-ne-ve-na @ Himmel @ { a  → RELAT.SG-GEN-RELAT.PL.ABS} @ noun @ 
@@ -997,13 +997,13 @@ KBo 35.183{€1}
 	{€2} Rs. IV 16′ kīdābi-a@ein Gewand@{ a → ESS}@noun@          kīdāvi-a @ ein Gewand @ { a  → ESS} @ noun @ 
 	{€2} Rs. IV 17′ mīdi-āi@u.B.@{ a → INS}@noun@                 mide-āi @ u.B. @ { a  → INS} @ noun @ 
 	{€2} Rs. IV 17′ mīd-i-āi@u.B.@{ a → MOD.ACT-PURP}@verb@       mid-i-āi @ u.B. @ { a  → MOD.ACT-PURP} @ verb @ 
-KBo 51.224 {€1} + KBo 35.41 {€2}
+CTH_776_mit_Annotation/KBo 51.224+
 	 {€2+1} 3′ kēv-ud-o-m@setzen; stellen; legen@{ a → NEG-TR.PFV-3A.SG}@verb@ kev-ud-o-m @ setzen; stellen; legen @ { a  → NEG-TR.PFV-3A.SG} @ verb @ 
 	 {€2+1} 3′ kēv-ud-o-m@setzen; stellen; legen@{ a → ud-TR.PFV-3ASG}@verb@ kev-ud-o-m @ setzen; stellen; legen @ { a  → ud-TR.PFV-3ASG} @ verb @ 
 	 {€2+1} 5′ ave-da@jeder; wer@{ a → DIR}@PRON@            ave-da @ wer; jeder @ { a  → DIR} @ PRON @ 
 	 {€2+1} 5′ uwī-ž@Brot@{ a → ERG}@noun@                   uwi-ž @ Brot @ { a  → ERG} @ noun @ 
 	 {€2+1} 7′ fānd+ar+i+ni-na-āž-ož@Koch@{ a → RELAT.PL-PL-ERG}@noun@ fand+ar+i+nni-na-āž-ož @ Koch @ { a  → RELAT.PL-PL-ERG} @ noun @ 
-KUB 45.60
+CTH_776_mit_Annotation/KUB 45.60
 	Vs. II 5′  aī=m@falls; wenn@{ a → =2SG.ABS}@CONJ@        ai=m @ falls; wenn @ { a  → =2SG.ABS} @ CONJ @ 
 	Vs. II 11′ šukko=nna@eins@{ a → =3SG.ABS}@NUM@           šokko=nna @ eins @ { a  → =3SG.ABS} @ NUM @ 
 	Vs. II 15′ kīli@u.B.@{ a → .ABS}@noun@                   kili @ u.B. @ { a  → .ABS} @ noun @ 
@@ -1013,7 +1013,7 @@ KUB 45.60
 	Vs. II 20′ tive-na@Wort; Sache@RELAT.PL.ABS@noun@        tīve-na @ Wort; Sache @ RELAT.PL.ABS @ noun @ 
 	Vs. II 20′ Šavoškā-da@DN@DIR@noun@                       Šavoška-da @ DN @ DIR @ noun @ 
 	Vs. II 20′ al-u+m+āi@u.B.@{ a → CVB}@NF@                 al-u+m+āi @ u.B. @ { a  → CVB} @ verb @ 
-KUB 47.12{€1} + HT 93{€2}
+CTH_776_mit_Annotation/KUB 47.12+
 	{€2} r. Kol. 4′ kādi@u.B.@{ a → .ABS}@noun@                   kadi @ u.B. @ { a  → .ABS} @ noun @ 
 	{€2+1} r. Kol. 10′/Vs. III? 2′ Teššop-pe-ož=l@DN@{ a → GEN-EQU=3PL.ABS} { b → GEN-ERG=3PL.ABS}@noun@ Teššob-pe-ož=l @ DN @ { a  → GEN-EQU=3PL.ABS}{ b  → GEN-ERG=3PL.ABS} @ noun @ 
 	{€2+1} r. Kol. 10′/Vs. III? 2′ tive-na@Sache; Wort@RELAT.PL.ABS@noun@        tīve-na @ Wort; Sache @ RELAT.PL.ABS @ noun @ 
@@ -1025,12 +1025,12 @@ KUB 47.12{€1} + HT 93{€2}
 	{€1} Vs. III? 6′ tamrī-ž=l@neun@{ a → ERG=3PL.ABS}@NUM@        tamri-ž=l @ neun @ { a  → ERG=3PL.ABS} @ NUM @ 
 	{€1} Vs. III? 7′ tive-na@Wort; Sache@{ a → RELAT.PL.ABS}@noun@ tīve-na @ Wort; Sache @ { a  → RELAT.PL.ABS} @ noun @ 
 	{€1} Vs. III? 13′ šīe-na@Fluss; Wasser@RELAT.PL.ABS@noun@       šie-na @ Wasser; Fluss @ RELAT.PL.ABS @ noun @ 
-KUB 47.17
+CTH_776_mit_Annotation/KUB 47.17
 	2′         al-u+m+ai@sprechen@{ a → CVB}@NF@             al-u+m+ai @ sprechen @ { a  → CVB} @ verb @ 
 	3′         alla+i@Herrin@.ABS@noun@                      ālla+i @ Herrin @ .ABS @ noun @ 
 	5′         ḫāžarri-da@Öl@{ a → DIR}@noun@                ḫāž+arr+i-da @ Öl @ { a  → DIR} @ noun @ 
 	5′         ḫōd-i+m+ae@beten; preisen; segnen@{ a → CVB}@NF@ ḫōd-i+m+ae @ beten; preisen; segnen @ { a  → CVB} @ verb @ 
-KBo 15.70 {€3}
+CTH_777_mit_ Annotation_unvollständig/KBo 15.70+
 	 {€1} Vs. 4′ elmi-ne-da@Eid@RELAT.SG-DIR@noun@             elmi-ne-da @ Eid; Schwur @ RELAT.SG-DIR @ noun @ 
 	 {€1} Vs. 6′ āšte-nna@Ehefrau; Frau@{ a → EQU2}@noun@      āšte-nna @ Frau; Ehefrau @ { a  → EQU2} @ noun @ 
 	 {€1} Vs. 6′ āšte-i-nna@Ehefrau; Frau@{ a → 3POSS.SG-EQU2}@noun@ āšte-i-nna @ Frau; Ehefrau @ { a  → 3POSS.SG-EQU2} @ noun @ 
@@ -1130,7 +1130,7 @@ KBo 15.70 {€3}
 	 {€1} Rs. 36′ āšḫ+ož+i+kk+o+nni-ne-ve@Ritualherr; Ritualherrin@RELAT.SG-GEN@noun@ āšḫ+ož+i+kk+o+nni-ne-ve @ Ritualherr(in) @ RELAT.SG-GEN @ noun @ 
 	 {€1} Rs. 36′ Tado.Ḫebā-ve@PN@GEN@noun@                     Tado.Ḫeba-ve @ PN @ GEN @ noun @ 
 	 {€1} Rs. 38′ ašḫ+ož+i+kk+o+nni-ne-ve@Ritualherr; Ritualherrin@RELAT.SG-GEN@noun@ āšḫ+ož+i+kk+o+nni-ne-ve @ Ritualherr(in) @ RELAT.SG-GEN @ noun @ 
-KBo 15.72 {€1}
+CTH_777_mit_ Annotation_unvollständig/KBo 15.72+
 	 {€1} Vs. I 4 Teššop-pe-na-āž-a@DN@GEN-RELAT.PL-PL-DAT/ESS@noun@ Teššob-pe-na-āž-a @ DN @ GEN-RELAT.PL-PL-DAT/ESS @ noun @ 
 	 {€1} Vs. I 5 idi@Körper@.ABS@noun@                         idi @ Körper; Bezug @ .ABS @ noun @ 
 	 {€1} Vs. I 6 āšḫ+ož+i+kk+o+nni@Ritualherr; Ritualherrin@.ABS@noun@ āšḫ+ož+i+kk+o+nni @ Ritualherr(in) @ .ABS @ noun @ 
@@ -1142,7 +1142,7 @@ KBo 15.72 {€1}
 	 {€2} Rs. 10′ ḫavōro+ni-ne-ve@Himmel@RELAT.SG-GEN@noun@     ḫavoro+nni-ne-ve @ Himmel @ RELAT.SG-GEN @ noun @ 
 	 {€2} Rs. 10′ ever+ni@König@{ a → .ABS}@noun@               evri+ni @ König @ { a  → .ABS} @ noun @ 
 	 {€2} Rs. 13′ ever+ni@König@{ a → .ABS}@noun@               evri+ni @ König @ { a  → .ABS} @ noun @ 
-KBo 20.130
+CTH_777_mit_ Annotation_unvollständig/KBo 20.130
 	Rs. 6′     mīg-a@u.B.@{ a → INT}@verb@                   mig-a @ u.B. @ { a  → INT} @ verb @ 
 	Rs. 6′     Šimīga@GN@{ a → .ABS}@noun@                   Šimiga @ DN @ { a  → .ABS} @ noun @ 
 	Rs. 6′     Šimīge-a@GN@{ a → ESS}@noun@                  Šimige-a @ DN @ { a  → ESS} @ noun @ 
@@ -1150,7 +1150,7 @@ KBo 20.130
 	Rs. 10′    amm-umme@erreichen; errreichen; gelangen lassen@{ a → INF.ABS}@NF@ amm-umme @ erreichen; gelangen lassen @ { a  → INF.ABS} @ verb @ 
 	Rs. 11′    ūmb-iž-a@u.B.@{ a → iž-3A.SG} { b → iž-INT}@verb@ umb-iž-a @ u.B. @ { a  → iž-3A.SG}{ b  → iž-INT} @ verb @ 
 	Rs. 11′    torbe-a@Feind@{ a → ESS}@noun@                torove-a @ Feind @ { a  → ESS} @ noun @ 
-KBo 20.131
+CTH_777_mit_ Annotation_unvollständig/KBo 20.131
 	Vs. I 5′   irde@Zunge@.ABS@noun@                         irdi @ Zunge @ .ABS @ noun @ 
 	Vs. I 10′  idi-i-da@Körper@3POSS.SG-DIR@noun@            idi-i-da @ Körper; Bezug @ 3POSS.SG-DIR @ noun @ 
 	Vs. I 10′  idi-da@Körper@{ a → DIR}@noun@                idi-da @ Körper; Bezug @ { a  → DIR} @ noun @ 
@@ -1187,16 +1187,16 @@ KBo 20.131
 	Rs. III 21′ šeġēli-ne-ve-āi@rein@{ a → RELAT.SG-GEN-INS}@noun@ šeġeli-ne-ve-āi @ rein @ { a  → RELAT.SG-GEN-INS} @ noun @ 
 	Rs. III 21′ šeġēlli-ve-āi@rein@{ a → GEN-INS}@noun@       šeġelli-ve-āi @ rein @ { a  → GEN-INS} @ noun @ 
 	Rs. III 22′ šie-ai@Fluss; Wasser@{ a → INS}@noun@         šie-ai @ Wasser; Fluss @ { a  → INS} @ noun @ 
-KBo 20.138
+CTH_777_mit_ Annotation_unvollständig/KBo 20.138
 	1′         ašḫ+ož+i+kk+o+nni@Ritualherr; Ritualherrin@{ a → .ABS}@noun@ āšḫ+ož+i+kk+o+nni @ Ritualherr(in) @ { a  → .ABS} @ noun @ 
 	3′         ōll+uġ-ōž-ill-and-i-n@abwischen; niederdrücken@{ a → ōž-ill-PL.A-MOD.ACT-n}@noun@ ōll+uġ-ōž-ill-and-i-n @ abwischen; niederdrücken @ { a  → ōž-ill-PL.A-MOD.ACT-n} @ verb @ 
 	4′         ōli-ne@anderer@{ a → ABL/INS}@noun@           oli-ne @ anderer @ { a  → ABL/INS} @ noun @ 
 	4′         ōli-ne-e@anderer@{ a → RELAT.SG-DIR/LOC}@noun@ oli-ne-e @ anderer @ { a  → RELAT.SG-DIR/LOC} @ noun @ 
 	4′         patti-ne@u.B.@{ a → ABL/INS}@noun@            patte-ne @ u.B. @ { a  → ABL/INS} @ noun @ 
 	4′         patti-ne-e@u.B.@{ a → RELAT.SG-DIR/LOC}@noun@ patte-ne-e @ u.B. @ { a  → RELAT.SG-DIR/LOC} @ noun @ 
-KBo 21.43
+CTH_777_mit_ Annotation_unvollständig/KBo 21.43
 	Vs. I 9′   šī-ūmme-ne@beobachten@{ a → INF-ABL/INS}@NF@  šī-ūmme-ne @ beobachten @ { a  → INF-ABL/INS} @ verb @ 
-KBo 21.44 {€1}
+CTH_777_mit_ Annotation_unvollständig/KBo 21.44+
 	 {€2} Rs.? 2′ šīe-āi@Fluss; Wasser@{ a → INS}@noun@         šie-āi @ Wasser; Fluss @ { a  → INS} @ noun @ 
 	 {€2} Rs.? 2′ tive-āi@Sache; Wort@{ a → INS}@noun@          tīve-āi @ Wort; Sache @ { a  → INS} @ noun @ 
 	 {€2} Rs.? 4′ idi-b@Körper@2POSS.SG.ABS@noun@               idi-b @ Körper; Bezug @ 2POSS.SG.ABS @ noun @ 
@@ -1211,7 +1211,7 @@ KBo 21.44 {€1}
 	 {€2} Rs.? 13′ šōni-b@Hand@{ a → 2POSS.SG.ABS}@noun@         šō+ni-b @ Hand @ { a  → 2POSS.SG.ABS} @ noun @ 
 	 {€3} Rs. r. Kol. 9′ igi@in@@ POST@                                egi @ mitten @  @ POST @ 
 	 {€3} Rs. r. Kol. 11′ igi@in@@ POST@                                egi @ mitten @  @ POST @ 
-KBo 27.102 {€1}
+CTH_777_mit_ Annotation_unvollständig/KBo 27.102+
 	 {€1} Vs. II 2 šīe-na-āž-ož@Wasser; Fluss@RELAT.PL-PL-ERG@noun@ šie-na-āž-ož @ Wasser; Fluss @ RELAT.PL-PL-ERG @ noun @ 
 	 {€1} Vs. II 4 poe-na-āž-ož@u.B.@RELAT.PL-PL-ERG@noun@       pōe-na-āž-ož @ u.B. @ RELAT.PL-PL-ERG @ noun @ 
 	 {€1} Vs. II 5 tive-na-āž-ož@Sache; Wort@RELAT.PL-PL-ERG@noun@ tīve-na-āž-ož @ Wort; Sache @ RELAT.PL-PL-ERG @ noun @ 
@@ -1228,18 +1228,18 @@ KBo 27.102 {€1}
 	 {€1} Vs. II 15 irde@Zunge@.ABS@noun@                         irdi @ Zunge @ .ABS @ noun @ 
 	 {€1+2} Vs. II 19/Rs.? 2′ ašḫ+ož+i+kk+o+nni@Ritualherr; Ritualherrin@{ a → .ABS}@noun@ āšḫ+ož+i+kk+o+nni @ Ritualherr(in) @ { a  → .ABS} @ noun @ 
 	 {€2} Rs.? 7″ pārili-a@Verfehlung; Ärgernis@{ a → ESS}@noun@ pārili-a @ Ärgernis; Verfehlung @ { a  → ESS} @ noun @ 
-KBo 27.95
+CTH_777_mit_ Annotation_unvollständig/KBo 27.95
 	7′         taġe-ne-ž@Mann@{ a → RELAT.SG-ERG}@noun@      tāġe-ne-ž @ Mann @ { a  → RELAT.SG-ERG} @ noun @ 
 	9′         elmi@Eid@{ a → .ABS}@noun@                    elmi @ Eid; Schwur @ { a  → .ABS} @ noun @ 
 	10′        fāž-i@eintreten; eintreten lassen@{ a → ANTIP}@verb@ faž-i @ eintreten, hineinbringen @ { a  → ANTIP} @ verb @ 
 	11′        ašḫ+ož+i+kk+o+nni-ve@Ritualherr; Ritualherrin@{ a → GEN}@noun@ āšḫ+ož+i+kk+o+nni-ve @ Ritualherr(in) @ { a  → GEN} @ noun @ 
 	12′        šīe-na-āž-ož@Fluss; Wasser@RELAT.PL-PL-ERG@noun@ šie-na-āž-ož @ Wasser; Fluss @ RELAT.PL-PL-ERG @ noun @ 
 	13′        poe-na-āž-ož@u.B.@{ a → RELAT.PL-PL-ERG}@noun@ pōe-na-āž-ož @ u.B. @ { a  → RELAT.PL-PL-ERG} @ noun @ 
-KBo 27.96
+CTH_777_mit_ Annotation_unvollständig/KBo 27.96
 	Seite A 9′ un-ož-a=mma@bringen; kommen@{ a → PST-3A.SG=2SG.ABS}@verb@ un-ož-a=mma @ kommen; bringen @ { a  → PST-3A.SG=2SG.ABS} @ verb @ 
 	Seite A 11′ idi-va@Körper@DAT@noun@                       idi-va @ Körper; Bezug @ DAT @ noun @ 
 	Seite A 11′ idi-i-va@Körper@3POSS.SG-DAT@noun@            idi-i-va @ Körper; Bezug @ 3POSS.SG-DAT @ noun @ 
-KBo 33.12 {€1}
+CTH_777_mit_ Annotation_unvollständig/KBo 33.12+
 	 {€1} 3′   šī-ūmme-ne@beobachten@{ a → INF-ABL/INS}@NF@  šī-ūmme-ne @ beobachten @ { a  → INF-ABL/INS} @ verb @ 
 	 {€1} 3′   šī-ūmme-ne-e@beobachten@{ a → INF-RELAT.SG-DIR/LOC}@NF@ šī-ūmme-ne-e @ beobachten @ { a  → INF-RELAT.SG-DIR/LOC} @ verb @ 
 	 {€1} 3′   šī-ūmme-ne@beobachten@{ a → INF-ABL/INS}@NF@  šī-ūmme-ne @ beobachten @ { a  → INF-ABL/INS} @ verb @ 
@@ -1253,7 +1253,7 @@ KBo 33.12 {€1}
 	 {€3} Rs. 14′ šīe-na-až-ož@Fluss; Wasser@RELAT.PL-PL-ERG@noun@ šie-na-až-ož @ Wasser; Fluss @ RELAT.PL-PL-ERG @ noun @ 
 	 {€2} r. Kol. 1′ ašḫ+ož+i+kk+o+nni-ne-ve@Ritualherr; Ritualherrin@{ a → RELAT.SG-GEN}@noun@ āšḫ+ož+i+kk+o+nni-ne-ve @ Ritualherr(in) @ { a  → RELAT.SG-GEN} @ noun @ 
 	 {€2} r. Kol. 4′ ašḫ+ož+i+kk+o+nni@Ritualherr; Ritualherrin@.ABS@noun@ āšḫ+ož+i+kk+o+nni @ Ritualherr(in) @ .ABS @ noun @ 
-KBo 33.15 {€1}
+CTH_777_mit_ Annotation_unvollständig/KBo 33.15+
 	 {€1} Rs.? III 5′ abe-ž@jeder; wer@{ a → ERG}@PRON@             ave-ž @ wer; jeder @ { a  → ERG} @ PRON @ 
 	 {€1} Rs.? III 11′ idi-da@Körper@{ a → DIR}@noun@                idi-da @ Körper; Bezug @ { a  → DIR} @ noun @ 
 	 {€1} Rs.? III 11′ idi-i-da@Körper@{ a → 3POSS.SG-DIR}@noun@     idi-i-da @ Körper; Bezug @ { a  → 3POSS.SG-DIR} @ noun @ 
@@ -1284,13 +1284,13 @@ KBo 33.15 {€1}
 	 {€1+2} Vs.? II 1′/Rs. 9 ašḫ+ož+i+kk+o+nni@Ritualherr; Ritualherrin@{ a → .ABS}@noun@ āšḫ+ož+i+kk+o+nni @ Ritualherr(in) @ { a  → .ABS} @ noun @ 
 	 {€1} Vs.? II 10′ šī-ūmme-ne@beobachten@{ a → INF-ABL/INS}@NF@  šī-ūmme-ne @ beobachten @ { a  → INF-ABL/INS} @ verb @ 
 	 {€1} Vs.? II 10′ šī-ūmme-ne-e@beobachten@{ a → INF-RELAT.SG-DIR/LOC}@NF@ šī-ūmme-ne-e @ beobachten @ { a  → INF-RELAT.SG-DIR/LOC} @ verb @ 
-KBo 33.16
+CTH_777_mit_ Annotation_unvollständig/KBo 33.16
 	3′         šie-āi@Fluss; Wasser@{ a → INS}@noun@         šie-āi @ Wasser; Fluss @ { a  → INS} @ noun @ 
 	4′         Tādo.Ḫeba=n@PN@{ a → .ABS=3SG.ABS}@noun@      Tado.Ḫeba=n @ PN @ { a  → .ABS=3SG.ABS} @ noun @ 
 	5′         ašḫ+ož+i+kk+o+nni@Ritualherr; Ritualherrin@{ a → .ABS}@noun@ āšḫ+ož+i+kk+o+nni @ Ritualherr(in) @ { a  → .ABS} @ noun @ 
 	7′         ši-umme-ne@beobachten@{ a → INF-ABL/INS}@NF@  šī-umme-ne @ beobachten @ { a  → INF-ABL/INS} @ verb @ 
 	7′         ši-umme-ne-e@beobachten@{ a → INF-RELAT.SG-DIR/LOC}@NF@ šī-umme-ne-e @ beobachten @ { a  → INF-RELAT.SG-DIR/LOC} @ verb @ 
-KBo 33.43 {€2}
+CTH_777_mit_ Annotation_unvollständig/KBo 33.43+
 	 {€1} Vs. II 29 idi-b@Körper@2POSS.SG.ABS@noun@               idi-b @ Körper; Bezug @ 2POSS.SG.ABS @ noun @ 
 	 {€1} Vs. II 30 šīe-na-až-ož@Fluss; Wasser@RELAT.PL-PL-ERG@noun@ šie-na-až-ož @ Wasser; Fluss @ RELAT.PL-PL-ERG @ noun @ 
 	 {€1} Vs. II 30 šini=m@ferner; weiterhin; wiederum@{ a → =CON} { b → =2SG.ABS}@ADV@ šini=m @ wieder; weiterhin @ { a  → =CON}{ b  → =2SG.ABS} @ ADV @ 
@@ -1416,7 +1416,7 @@ KBo 33.43 {€2}
 	 {€1} Rs. IV 32 Teššop-pe-āi@DN@{ a → GEN-INS}@noun@          Teššob-pe-āi @ DN @ { a  → GEN-INS} @ noun @ 
 	 {€1} Rs. IV 32 tive-āi@Sache; Wort@INS@noun@                 tīve-āi @ Wort; Sache @ INS @ noun @ 
 	 {€1} Rs. IV 35 nešši@Gabe@.ABS@noun@                         nešše @ Gabe @ .ABS @ noun @ 
-KBo 40.123 {€2}
+CTH_777_mit_ Annotation_unvollständig/KBo 40.123+
 	 {€1+3} Vs. I 44/Vs.12′ šīe-na@Wasser; Fluss@RELAT.PL.ABS@noun@       šie-na @ Wasser; Fluss @ RELAT.PL.ABS @ noun @ 
 	 {€4+1} Vs. I 56/Vs. I 56′! šīe-na@Fluss; Wasser@RELAT.PL.ABS@noun@       šie-na @ Wasser; Fluss @ RELAT.PL.ABS @ noun @ 
 	 {€4+1} Vs. I 57/Vs. I 57′! šīe-na@Fluss; Wasser@RELAT.PL.ABS@noun@       šie-na @ Wasser; Fluss @ RELAT.PL.ABS @ noun @ 
@@ -1488,7 +1488,7 @@ KBo 40.123 {€2}
 	 {€4+7} Rs. IV 8′/Rs. IV 1′ ābi@vor@@ PREP@                               avi @ vor @  @ PREP @ 
 	 {€4+7} Rs. IV 8′/Rs. IV 1′ ābi@vor@@ PREP@                               avi @ vor @  @ PREP @ 
 	 {€4+7} Rs. IV 10′/Rs. IV 3′ tive-āi@Sache; Wort@INS@noun@                 tīve-āi @ Wort; Sache @ INS @ noun @ 
-KUB 32.23 {€3}
+CTH_777_mit_ Annotation_unvollständig/KUB 32.23+
 	 {€1+2} Vs. 1 un-a=dil@bringen; kommen@{ a → INT=1PL.ABS}@verb@ un-a=dil @ kommen; bringen @ { a  → INT=1PL.ABS} @ verb @ 
 	 {€1+2} Vs. 1 tive@Wort; Sache@.ABS@noun@                   tīve @ Wort; Sache @ .ABS @ noun @ 
 	 {€1+2} Vs. 1 Teššop-pa@DN@{ a → DAT}@noun@                 Teššob-pa @ DN @ { a  → DAT} @ noun @ 
@@ -1529,7 +1529,7 @@ KUB 32.23 {€3}
 	 {€5} Vs. 17′ ḫalzi-ne-ve@Distrikt@RELAT.SG-GEN@noun@       ḫalze-ne-ve @ Distrikt @ RELAT.SG-GEN @ noun @ 
 	 {€5} Rs. 4 tan-ašt-a=ffa=nan@machen@{ a → RES-INT=2PL.ABS=CON} { b → RES-3A.SG=2PL.ABS=CON}@verb@ tān-ašt-a=ffa=nan @ machen @ { a  → RES-INT=2PL.ABS=CON}{ b  → RES-3A.SG=2PL.ABS=CON} @ verb @ 
 	 {€5} Rs. 5 tive@Wort; Sache@.ABS@noun@                   tīve @ Wort; Sache @ .ABS @ noun @ 
-KUB 32.25 {€3}
+CTH_777_mit_ Annotation_unvollständig/KUB 32.25+
 	 {€1+2} Vs. I 1 šīe-na@Wasser; Fluss@RELAT.PL.ABS@noun@       šie-na @ Wasser; Fluss @ RELAT.PL.ABS @ noun @ 
 	 {€1+2} Vs. I 2 al+ū+re-na@u.B.@RELAT.PL.ABS@noun@            al+o+re-na @ u.B. @ RELAT.PL.ABS @ noun @ 
 	 {€1+2} Vs. I 4 šīe-a=l@Fluss; Wasser@{ a → ESS=3PL.ABS}@noun@ šie-a=l @ Wasser; Fluss @ { a  → ESS=3PL.ABS} @ noun @ 
@@ -1647,7 +1647,7 @@ KUB 32.25 {€3}
 	 {€1+2} Rs. IV 30′ ašḫ+ož+i+kk+o+nni@Ritualherr; Ritualherrin@.ABS@noun@ āšḫ+ož+i+kk+o+nni @ Ritualherr(in) @ .ABS @ noun @ 
 	 {€1+2} Rs. IV 31′ ašḫ+ož+i+kk+o+nni@Ritualherr; Ritualherrin@.ABS@noun@ āšḫ+ož+i+kk+o+nni @ Ritualherr(in) @ .ABS @ noun @ 
 	 {€1+2} Rs. IV 32′ ābi@vor@@ PREP@                               avi @ vor @  @ PREP @ 
-KUB 32.40 {€1}
+CTH_777_mit_ Annotation_unvollständig/KUB 32.40+
 	 {€2} Vs. II 2 pidi-i-a@u.B.@3POSS.SG-ESS@noun@              pīdi-i-a @ u.B. @ 3POSS.SG-ESS @ noun @ 
 	 {€2} Vs. II 4 ši-ī=m@Auge@{ a → 3POSS.SG.ABS=2SG.ABS} { b → 3POSS.SG.ABS=CON}@noun@ šī-ī=m @ Auge @ { a  → 3POSS.SG.ABS=2SG.ABS}{ b  → 3POSS.SG.ABS=CON} @ noun @ 
 	 {€2} Vs. II 4 sali-ne@u.B.@{ a → ABL/INS}@noun@             sāli-ne @ u.B. @ { a  → ABL/INS} @ noun @ 
@@ -1687,7 +1687,7 @@ KUB 32.40 {€1}
 	 {€2} Rs. III 6′ ašḫ+ož+i+kk+o+nni-ne-ve@Ritualherr; Ritualherrin@{ a → RELAT.SG-GEN}@noun@ āšḫ+ož+i+kk+o+nni-ne-ve @ Ritualherr(in) @ { a  → RELAT.SG-GEN} @ noun @ 
 	 {€2} Rs. III 8′ šī-ūmme-ne@beobachten@{ a → INF-ABL/INS}@NF@  šī-ūmme-ne @ beobachten @ { a  → INF-ABL/INS} @ verb @ 
 	 {€2} Rs. III 8′ šī-ūmme-ne-e@beobachten@{ a → INF-RELAT.SG-DIR/LOC}@NF@ šī-ūmme-ne-e @ beobachten @ { a  → INF-RELAT.SG-DIR/LOC} @ verb @ 
-KUB 32.51 {€2}
+CTH_777_mit_ Annotation_unvollständig/KUB 32.51+
 	 {2+1} Vs. I 5′/Vs. I 47″ idi-b@Körper@{ a → 2POSS.SG.ABS}@noun@        idi-b @ Körper; Bezug @ { a  → 2POSS.SG.ABS} @ noun @ 
 	 {2+1} Vs. I 5′/Vs. I 47″ šīe-na-āž-ož@Wasser; Fluss@RELAT.PL-PL-ERG@noun@ šie-na-āž-ož @ Wasser; Fluss @ RELAT.PL-PL-ERG @ noun @ 
 	 {2+1} Vs. I 5′/Vs. I 47″ šini=m@ferner; weiterhin; wiederum@{ a → =CON} { b → =2SG.ABS}@ADV@ šini=m @ wieder; weiterhin @ { a  → =CON}{ b  → =2SG.ABS} @ ADV @ 
@@ -1715,7 +1715,7 @@ KUB 32.51 {€2}
 	 {€2} Rs. IV 1 išḫōni-va@Silber@DAT@noun@                    išḫoni-va @ Silber @ DAT @ noun @ 
 	 {€2} Rs. IV 1 igi-i-da@Mitte@3POSS.SG-DIR@noun@             egi-i-da @ Inneres, innere; Mitte @ 3POSS.SG-DIR @ noun @ 
 	 {€2} Rs. IV 2 šuwanulam@u.B.@@ unclear@                     šuwanolam @ u.B. @  @ unclear @ 
-KBo 27.92 {€1}
+CTH_777_mit_ Annotation_unvollständig/KBo 27.92+
 	 {€1} Vs. II 1 idi-va@Körper@DAT@noun@                       idi-va @ Körper; Bezug @ DAT @ noun @ 
 	 {€1} Vs. II 1 idi-i-va@Körper@3POSS.SG-DAT@noun@            idi-i-va @ Körper; Bezug @ 3POSS.SG-DAT @ noun @ 
 	 {€1} Vs. II 2 tive@Sache; Wort@.ABS@noun@                   tīve @ Wort; Sache @ .ABS @ noun @ 
@@ -1735,14 +1735,14 @@ KBo 27.92 {€1}
 	 {€4} Rs. IV 6′ ābi-i-da@Gesicht@{ a → 3POSS.SG-DIR}@noun@    avi-i-da @ Gesicht @ { a  → 3POSS.SG-DIR} @ noun @ 
 	 {€4} Rs. IV 8′ tive-āi@Sache; Wort@INS@noun@                 tīve-āi @ Wort; Sache @ INS @ noun @ 
 	 {€4} Rs. IV 9′ Teššop-pa@DN@DAT@noun@                        Teššob-pa @ DN @ DAT @ noun @ 
-KBo 32.11
+CTH_789_mit_Annotation/KBo 32.11
 	Vs. I 2    ēvri@Herr@{ a → .ABS}@noun@                   ēvri @ Herr @ { a  → .ABS} @ noun @ 
 	Vs. I 4    kād-il-i-le @ sagen; sprechen @ { a  → il-MOD.ACT-1JUSS} @ verb @  kad-il-i-le @ sagen; sprechen @ { a  → il-MOD.ACT-1JUSS} @ verb @ 
 	Vs. I 7    kād-il-i-le @ sagen; sprechen @ { a  → il-MOD.ACT-1JUSS} @ verb @  kad-il-i-le @ sagen; sprechen @ { a  → il-MOD.ACT-1JUSS} @ verb @ 
 	Vs. I 10   Ninuva-ḫe-ve @ GN @ { a  → ADJ-GEN} @ noun @  Ninuwa-ḫe-ve @ GN @ { a  → ADJ-GEN} @ noun @ 
 	Vs. I 19   irade @ Vogel @ { a  → .ABS} @ noun @         erade @ Vogel @ { a  → .ABS} @ noun @ 
 	Rs. IV 13′ kād-i-a @ sagen; sprechen @ TR-3A.SG @ verb @  kad-i-a @ sagen; sprechen @ TR-3A.SG @ verb @ 
-KBo 32.12
+CTH_789_mit_Annotation/KBo 32.12
 	Vs. I 1    nēra-a@Mutter@{ a → ESS}@noun@                nera-a @ Mutter @ { a  → ESS} @ noun @ 
 	Vs. I 5    taġ-až-ī-b@u.B.@{ a → až-ANTIP-b}@verb@       tāġ-až-ī-b @ u.B. @ { a  → až-ANTIP-b} @ verb @ 
 	Vs. I 6    taġ-až-ī-b@u.B.@{a → až-ANTIP-b}@verb@        tāġ-až-ī-b @ u.B. @ { a  → až-ANTIP-b} @ verb @ 
@@ -1763,7 +1763,7 @@ KBo 32.12
 	Rs. IV 21′ kōl-i-ež @ beiseite lassen @ MOD.ACT-OPT @ verb @  kol-i-ež @ ablassen; beiseite lassen @ MOD.ACT-OPT @ verb @ 
 	Rs. IV 21′ kād-ol-i-le @ sagen; sprechen @ ol-MOD.ACT-1JUSS @ verb @  kad-ol-i-le @ sagen; sprechen @ ol-MOD.ACT-1JUSS @ verb @ 
 	Rs. IV 22′ kād-ol-i-le @ sagen; sprechen @ ol-MOD.ACT-1JUSS @ verb @  kad-ol-i-le @ sagen; sprechen @ ol-MOD.ACT-1JUSS @ verb @ 
-KBo 32.13 {€1}
+CTH_789_mit_Annotation/KBo 32.13+
 	 {€1} Vs. 1a far-iž-a=nna@einziehen; losgehen@{ a → iž-INT=3SG.ABS}@verb@ pār-iž-a=nna @ losgehen; einziehen @ { a  → iž-INT=3SG.ABS} @ verb @ 
 	 {€1} Vs. 15a nūbi@zehntausend@{ a → .ABS}@NUM@             nubi @ zehntausend @ { a  → .ABS} @ NUM @ 
 	 {€1} Vs. 16a nūbi@zehntausend@{ a → .ABS}@NUM@             nubi @ zehntausend @ { a  → .ABS} @ NUM @ 
@@ -1773,7 +1773,7 @@ KBo 32.13 {€1}
 	 {€1} Vs. 26a fandi-n@recht; rechte Seite@{ a → ABL/INS}@noun@ fandi-n @ recht, rechte Seite; rechts @ { a  → ABL/INS} @ noun @ 
 	 {€1} Vs. 29a mēġ-a@hintreten@INT@verb@                     meġ-a @ hintreten @ INT @ verb @ 
 	 {€1} Vs. 30a ḫūruffe-ne-e@Rython@RELAT.SG-DIR/LOC@noun@    ḫūruffe-ne-e @ Rhyton @ RELAT.SG-DIR/LOC @ noun @ 
-KBo 32.14
+CTH_789_mit_Annotation/KBo 32.14
 	Vs. 1a     ede-ve-ne-ž@Körper; Bezug@{ a → GEN-RELAT.SG-ERG}@noun@ idi-ve-ne-ž @ Körper; Bezug @ { a  → GEN-RELAT.SG-ERG} @ noun @ 
 	Vs. 5a     āi@falls; wenn@@ CONJ@                        ai @ falls; wenn @  @ CONJ @ 
 	Vs. 17a    taržuwā+ni@Mensch@{ a → .ABS}@noun@           taržuwa+ni @ Mensch @ { a  → .ABS} @ noun @ 
@@ -1837,7 +1837,7 @@ KBo 32.14
 	Rs. 61     kir+ar+ni@u.B.@{ a → .ABS}@noun@              kir+ari+ni @ u.B. @ { a  → .ABS} @ noun @ 
 	Rs. 62     šīe-ne-e@Wasser; Fluss@{ a → RELAT.SG-DIR/LOC}@noun@ šie-ne-e @ Wasser; Fluss @ { a  → RELAT.SG-DIR/LOC} @ noun @ 
 	u. Rd. 63  taržuwā+ni@Mensch@{ a → .ABS}@noun@           taržuwa+ni @ Mensch @ { a  → .ABS} @ noun @ 
-KBo 32.15
+CTH_789_mit_Annotation/KBo 32.15
 	Vs. 4a′    āi @ falls; wenn @  @ CONJ @                  ai @ falls; wenn @  @ CONJ @ 
 	Vs. 19a′   nakk-i-uffo-š=nna@gewähren; freilassen@{ a → TR-1A.NEG-PL=3SG.ABS}@verb@ nakk-i-uffo-š=nna @ freilassen; gewähren @ { a  → TR-1A.NEG-PL=3SG.ABS} @ verb @ 
 	Vs. 24a′   nakk-i-ōffu-ž@gewähren; freilassen@{ a → TR-1A.NEG-PL}@verb@ nakk-i-ōffu-ž @ freilassen; gewähren @ { a  → TR-1A.NEG-PL} @ verb @ 
@@ -1852,9 +1852,9 @@ KBo 32.15
 	Rs. 8a     tiv+u+šḫi-na @ Rede @ { a  → RELAT.PL.ABS} @ noun @  tiv+o+šḫi-na @ Rede @ { a  → RELAT.PL.ABS} @ noun @ 
 	Rs. 13a    kād-i-a @ sagen; sprechen @ { a  → TR-3A.SG} @ verb @  kad-i-a @ sagen; sprechen @ { a  → TR-3A.SG} @ verb @ 
 	Rs. 14a    ēvri @ Herr @ { a  → .ABS} @ noun @           ēvri @ Herr @ { a  → .ABS} @ noun @ 
-KBo 32.16
+CTH_789_mit_Annotation/KBo 32.16
 	Vs. 15a    ḫav+ū+ži@u.B.@{ a → .ABS}@noun@               ḫāv+ō+že @ u.B. @ { a  → .ABS} @ noun @ 
-KBo 32.19
+CTH_789_mit_Annotation/KBo 32.19
 	Vs. 1a     nakk-i@gewähren; freilassen@{ a → TR.IMP}@verb@ nakk-i @ freilassen; gewähren @ { a  → TR.IMP} @ verb @ 
 	Vs. 3a     nakk-i=ma@gewähren; freilassen@{ a → TR.IMP=CON}@verb@ nakk-i=ma @ freilassen; gewähren @ { a  → TR.IMP=CON} @ verb @ 
 	Vs. 10a    mēġ-a@hintreten@INT@verb@                     meġ-a @ hintreten @ INT @ verb @ 
@@ -1880,7 +1880,7 @@ KBo 32.19
 	Rs. 46a′   šēr+že-ne-e @ u.B. @ RELAT.SG-DIR/LOC @ noun @  šer+že-ne-e @ u.B. @ RELAT.SG-DIR/LOC @ noun @ 
 	Rs. 47a′   šuwa-a @ Tag @ { a  → ESS} @ noun @           šowa-a @ Tag @ { a  → ESS} @ noun @ 
 	Rs. 48a′   ede-ž-ūda @ Körper; Bezug @ { a  → 2POSS.PL-DIR} @ noun @  idi-ž-ūda @ Körper; Bezug @ { a  → 2POSS.PL-DIR} @ noun @ 
-KBo 32.20
+CTH_789_mit_Annotation/KBo 32.20
 	Vs. I 8′   nābi=ma@(Todes-)Schicksal?@{ a → .ABS=CON}@noun@ nave=ma @ (Todes-)Schicksal? @ { a  → .ABS=CON} @ noun @ 
 	Vs. I 8′   nābi-i=ma@(Todes-)Schicksal?@{ a → 3POSS.SG.ABS=CON}@noun@ nave-i=ma @ (Todes-)Schicksal? @ { a  → 3POSS.SG.ABS=CON} @ noun @ 
 	Vs. I 9′   tāže-nē-ra@Geschenk?; Gabe?@{ a → RELAT.PL-COM}@noun@ taže-nē-ra @ Geschenk?; Gabe? @ { a  → RELAT.PL-COM} @ noun @ 
@@ -1893,57 +1893,57 @@ KBo 32.20
 	Rs. IV 6′  šīe@Wasser; Fluss@{ a → .ABS}@noun@           šie @ Wasser; Fluss @ { a  → .ABS} @ noun @ 
 	Rs. IV 15′ nakk-i@gewähren; freilassen@TR.IMP@verb@      nakk-i @ freilassen; gewähren @ TR.IMP @ verb @ 
 	Rs. IV 16′ nakk-i=ma@gewähren; freilassen@TR.IMP=CON@verb@ nakk-i=ma @ freilassen; gewähren @ TR.IMP=CON @ verb @ 
-KBo 32.209
+CTH_789_mit_Annotation/KBo 32.209
 	9′         irade @ Vogel @ { a  → .ABS} @ noun @         erade @ Vogel @ { a  → .ABS} @ noun @ 
-KBo 32.23
+CTH_789_mit_Annotation/KBo 32.23
 	2′         āi@falls; wenn@@ CONJ@                        ai @ falls; wenn @  @ CONJ @ 
 	2′         nakk-i-en?@gewähren; freilassen@{ a → MOD.ACT-3JUSS}@verb@ nakk-i-en? @ freilassen; gewähren @ { a  → MOD.ACT-3JUSS} @ verb @ 
 	3′         šēr+že-ne-e@u.B.@RELAT.SG-DIR/LOC@noun@       šer+že-ne-e @ u.B. @ RELAT.SG-DIR/LOC @ noun @ 
 	4′         āi@falls; wenn@@ CONJ@                        ai @ falls; wenn @  @ CONJ @ 
 	4′         nakk-i-en?@gewähren; freilassen@{ a → MOD.ACT-3JUSS}@verb@ nakk-i-en? @ freilassen; gewähren @ { a  → MOD.ACT-3JUSS} @ verb @ 
 	5′         pura+mmi-b@Sklave; Diener@2POSS.SG.ABS@noun@  pura+mmi-b @ Diener; Sklave @ 2POSS.SG.ABS @ noun @ 
-KBo 32.25
+CTH_789_mit_Annotation/KBo 32.25
 	Vs.? I 3′  nakk-i@gewähren; freilassen@TR.IMP@verb@      nakk-i @ freilassen; gewähren @ TR.IMP @ verb @ 
-KBo 32.26
+CTH_789_mit_Annotation/KBo 32.26
 	3a′        ōll+uġ-i-ae=nna=ān@niederdrücken; abwischen@{ a → MOD.ACT-PURP=3SG.ABS=CON}@verb@ ōll+uġ-i-ae=nna=ān @ abwischen; niederdrücken @ { a  → MOD.ACT-PURP=3SG.ABS=CON} @ verb @ 
 	4a′        šīe@Wasser; Fluss@.ABS@noun@                  šie @ Wasser; Fluss @ .ABS @ noun @ 
-KBo 32.28
+CTH_789_mit_Annotation/KBo 32.28
 	4′         āi @ falls; wenn @  @ CONJ @                  ai @ falls; wenn @  @ CONJ @ 
-KBo 32.31 {€1}
+CTH_789_mit_Annotation/KBo 32.31+
 	 {€2} Vs. I 4 kād-i-a @ sagen; sprechen @ TR-3A.SG @ verb @  kad-i-a @ sagen; sprechen @ TR-3A.SG @ verb @ 
 	 {€2} Vs. I 6 ḫull+o+rē-va@u.B.@DAT@noun@                   ḫull+o+re-va @ u.B. @ DAT @ noun @ 
 	 {€2} Rs. IV 14′ ḫīli-a@u.B.@{ a → ESS}@noun@                  ḫili-a @ u.B. @ { a  → ESS} @ noun @ 
 	 {€2} Rs. IV 14′ ḫīl-a@u.B.@INT@verb@                          ḫil-a @ u.B. @ INT @ verb @ 
-KBo 32.42
+CTH_789_mit_Annotation/KBo 32.42
 	9′         kād-i-a @ sagen; sprechen @ TR-3A.SG @ verb @  kad-i-a @ sagen; sprechen @ TR-3A.SG @ verb @ 
-KBo 32.50
+CTH_789_mit_Annotation/KBo 32.50
 	2′         kōl-i-ež@beiseite lassen@MOD.ACT-OPT@verb@    kol-i-ež @ ablassen; beiseite lassen @ MOD.ACT-OPT @ verb @ 
 	4′         nūri-na-až-a@u.B@{ a → RELAT.PL-PL-DAT/ESS}@noun@ nuri-na-až-a @ u.B. @ { a  → RELAT.PL-PL-DAT/ESS} @ noun @ 
 	5′         āmm-i-b-ā=lla@erreichen; gelangen lassen@{ a → ANTIP-b-EPNTH=3PL.ABS}@verb@ amm-i-b-ā=lla @ erreichen; gelangen lassen @ { a  → ANTIP-b-EPNTH=3PL.ABS} @ verb @ 
 	6′         āmm-i-ēn@erreichen; gelangen lassen@{ a → MOD.ACT-3JUSS}@verb@ amm-i-ēn @ erreichen; gelangen lassen @ { a  → MOD.ACT-3JUSS} @ verb @ 
 	8′         ōlvi-ne-e@anderer?@{ a → RELAT.SG-DIR/LOC}@noun@ olvi-ne-e @ anderer? @ { a  → RELAT.SG-DIR/LOC} @ noun @ 
 	8′         ōlvi-ne@anderer?@{ a → ABL/INS}@noun@         olvi-ne @ anderer? @ { a  → ABL/INS} @ noun @ 
-KBo 32.62
+CTH_789_mit_Annotation/KBo 32.62
 	Vs. I 2    šuwa-da @ Tag @ { a  → DIR} @ noun @          šowa-da @ Tag @ { a  → DIR} @ noun @ 
 	Vs. I 3    šuwa-da @ Tag @ { a  → DIR} @ noun @          šowa-da @ Tag @ { a  → DIR} @ noun @ 
 	Vs. I 4    nakk-i@gewähren; freilassen@TR.IMP@verb@      nakk-i @ freilassen; gewähren @ TR.IMP @ verb @ 
 	Vs. I 5    nakk-i@gewähren; freilassen@TR.IMP@verb@      nakk-i @ freilassen; gewähren @ TR.IMP @ verb @ 
-KBo 32.67
+CTH_789_mit_Annotation/KBo 32.67
 	Rs.? IV 6′ šuwa-ae @ Tag @ { a  → INS} @ noun @          šowa-ae @ Tag @ { a  → INS} @ noun @ 
 	Rs.? IV 11′ kād-i-a @ sagen; sprechen @ TR-3A.SG @ verb @  kad-i-a @ sagen; sprechen @ TR-3A.SG @ verb @ 
-KBo 32.70
+CTH_789_mit_Annotation/KBo 32.70
 	3′         nakk-i-ēn@gewähren; freilassen@{ a → MOD.ACT-3JUSS}@verb@ nakk-i-ēn @ freilassen; gewähren @ { a  → MOD.ACT-3JUSS} @ verb @ 
-KBo 32.80
+CTH_789_mit_Annotation/KBo 32.80
 	4′         ābri@u.B.@.ABS@noun@                          abri @ u.B. @ .ABS @ noun @ 
-KBo 32.88
+CTH_789_mit_Annotation/KBo 32.88
 	4′         pīd-a@u.B.@{ a → INT}@verb@                   pid-a @ u.B. @ { a  → INT} @ verb @ 
 	6′         kōl-i-ež @ beiseite lassen @ MOD.ACT-OPT @ verb @  kol-i-ež @ ablassen; beiseite lassen @ MOD.ACT-OPT @ verb @ 
-KBo 32.93
+CTH_789_mit_Annotation/KBo 32.93
 	4′         šuwa-a @ Tag @ { a  → ESS} @ noun @           šowa-a @ Tag @ { a  → ESS} @ noun @ 
 	4′         šuwa @ Tag @ { a  → .ABS} @ noun @            šowa @ Tag @ { a  → .ABS} @ noun @ 
-KBo 32.94
+CTH_789_mit_Annotation/KBo 32.94
 	3′         ēvri@Herr@{ a → .ABS}@noun@                   ēvri @ Herr @ { a  → .ABS} @ noun @ 
-KBo 32.16
+CTH_789_vorläufig/KBo 32.16
 	Vs. 15a    ḫav+ū+ži@u.B.@{ a → .ABS}@noun@               ḫāv+ō+že @ u.B. @ { a  → .ABS} @ noun @ 
-KBo 32.62
+CTH_789_vorläufig/KBo 32.62
 	Rs. 1′     DUB@Tontafel@{ a → NOM.SG(UNM)}{ b → ACC.SG(UNM)}{ c → NOM.PL(UNM)}{ d → ACC.PL(UNM)}{ e → GEN.SG(UNM)}{ f → GEN.PL(UNM)}{ g → D/L.SG(UNM)}{ h → D/L.PL(UNM)}{ i → ALL(UNM)}{ j → ABL(UNM)}{ k → INS(UNM)}{ l → VOC.SG(UNM)}{ m → VOC.PL(UNM)}@29.1.1@ DUB @ Tontafel @ { a  → }{ b  → }{ c  → }{ d  → }{ e  → }{ f  → }{ g  → }{ h  → }{ i  → }{ j  → }{ k  → }{ l  → }{ m  → } @ noun @ 

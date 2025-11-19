@@ -58,8 +58,10 @@ with (open('Modified files.txt', 'w', encoding='utf-8') as modified_files,
         if folder != 'Backup':
             progress_bar.set_postfix_str(folder)
             output_subdirectory = dirpath.replace(input_directory, output_directory)
+            rel_path = dirpath.removeprefix(input_directory).removeprefix(os.sep)
             for filename in filenames:
                 text_name, ext = path.splitext(filename)
+                rel_name = path.join(rel_path, text_name)
                 if ext == '.xml':
                   try:
                     outfile = path.join(output_subdirectory, filename)
@@ -70,7 +72,7 @@ with (open('Modified files.txt', 'w', encoding='utf-8') as modified_files,
                     with open(infile, 'r', encoding='utf-8') as fin:
                         file_text = fin.read()
                     soup = BeautifulSoup(file_text, 'xml')
-                    modified = modifier(soup, logging_function)
+                    modified = modifier(soup, logging_function, rel_name)
                     if modified:
                         os.makedirs(output_subdirectory, exist_ok=True)
                         with open(outfile, 'w', encoding='utf-8') as fout:

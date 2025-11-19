@@ -13,13 +13,8 @@ class SoupModifier:
               changes[origin] = target
         self.changes = changes
 
-    def __call__(self, soup: BeautifulSoup, logging_function: Callable[[str], None]) -> bool:
+    def __call__(self, soup: BeautifulSoup, logging_function: Callable[[str], None], rel_name: str) -> bool:
         lang = 'hit'
-        publ_tag = soup.find('AO:TxtPubl')
-        if isinstance(publ_tag, Tag):
-          publ = publ_tag.text
-        else:
-          publ = '[unknown]'
         modified = False
         lnr = '[unknown]'
         for tag in soup(['lb', 'w']):
@@ -27,11 +22,11 @@ class SoupModifier:
                 if 'lnr' in tag.attrs:
                   lnr = tag['lnr']
                 else:
-                  raise ValueError('The next line after {0} in {1} is not numbered'.format(lnr, publ))
+                  raise ValueError('The next line after {0} in {1} is not numbered'.format(lnr, rel_name))
                 if 'lg' in tag.attrs:
                     lang = tag['lg']
                 else:
-                    logging_function('Line {0} in {1} is not marked for language.\n'.format(lnr, publ))
+                    logging_function('Line {0} in {1} is not marked for language.\n'.format(lnr, rel_name))
                     lang = 'Hur'
             elif tag.name == 'w' and lang == 'Hur':
                 if 'lg' in tag.attrs and tag['lg'] != 'Hur':
@@ -44,7 +39,7 @@ class SoupModifier:
                           morph = Morph.parse(value)
                         except ValueError:
                           raise ValueError(
-                            'Incorrect morphological analysis:\n{0}\non line {1} in {2}'.format(value, lnr, publ)
+                            'Incorrect morphological analysis:\n{0}\non line {1} in {2}'.format(value, lnr, rel_name)
                           )
                         if morph in self.changes:
                             replacement = self.changes[morph]
@@ -54,7 +49,7 @@ class SoupModifier:
                             repl_str = replacement.__str__()
                             tag[attr] = repl_str
                             if not modified:
-                                logging_function(publ + '\n')
+                                logging_function(rel_name + '\n')
                             modified = True
                             logging_function(
                                 '\t{0:10} {1:45} {2}\n'.format(lnr, value, repl_str)
