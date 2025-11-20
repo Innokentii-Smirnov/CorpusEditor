@@ -12,10 +12,15 @@ from formatter import CustomFormatter
 from bs4.dammit import EntitySubstitution
 custom_formatter = CustomFormatter(entity_substitution=EntitySubstitution.substitute_xml)
 
-from logging import getLogger, FileHandler
+from logging import getLogger, FileHandler, INFO
 soup_modifier_logger = getLogger('soup_modifier')
-handler = FileHandler('Log.txt', 'w', encoding='utf-8')
-soup_modifier_logger.addHandler(handler)
+soup_modifier_handler = FileHandler('Log.txt', 'w', encoding='utf-8')
+soup_modifier_logger.addHandler(soup_modifier_handler)
+
+main_logger = getLogger(__name__)
+main_logger.setLevel(INFO)
+main_handler = FileHandler('Modified files.txt', 'w', encoding='utf-8')
+main_logger.addHandler(main_handler)
 
 SKIPPED_FILES = 'skipped_files.txt'
 LOG_NAME = 'error_log.txt'
@@ -54,38 +59,37 @@ changes = changesJson['changes']
 modifier = SoupModifier(changes)
 walk = list(os.walk(config['inputDirectory']))
 progress_bar = tqdm(walk)
-with (open('Modified files.txt', 'w', encoding='utf-8') as modified_files):
-    for dirpath, dirnames, filenames in progress_bar:
-        _, folder = path.split(dirpath)
-        if folder != 'Backup':
-            progress_bar.set_postfix_str(folder)
-            output_subdirectory = dirpath.replace(input_directory, output_directory)
-            rel_path = path.relpath(dirpath, input_directory)
-            for filename in filenames:
-                text_name, ext = path.splitext(filename)
-                rel_name = path.join(rel_path, text_name)
-                if ext == '.xml':
-                  try:
-                    outfile = path.join(output_subdirectory, filename)
-                    if path.exists(outfile):
-                        infile = outfile
-                    else:
-                        infile = path.join(dirpath, filename)
-                    with open(infile, 'r', encoding='utf-8') as fin:
-                        file_text = fin.read()
-                    soup = BeautifulSoup(file_text, 'xml')
-                    modified = modifier(soup, rel_name)
-                    if modified:
-                        os.makedirs(output_subdirectory, exist_ok=True)
-                        with open(outfile, 'w', encoding='utf-8') as fout:
-                            outfile_text = soup.decode(formatter=custom_formatter)
-                            fout.write(outfile_text)
-                        modified_files.write('{0:8} {1}\n'.format(folder, text_name))
-                  except (KeyError, ValueError) as exc:
-                    fullname = path.join(dirpath, filename)
-                    log_file_skipping(fullname)
-                    log_error(fullname)
-                    log_error(traceback.format_exc())
+for dirpath, dirnames, filenames in progress_bar:
+    _, folder = path.split(dirpath)
+    if folder != 'Backup':
+        progress_bar.set_postfix_str(folder)
+        output_subdirectory = dirpath.replace(input_directory, output_directory)
+        rel_path = path.relpath(dirpath, input_directory)
+        for filename in filenames:
+            text_name, ext = path.splitext(filename)
+            rel_name = path.join(rel_path, text_name)
+            if ext == '.xml':
+              try:
+                outfile = path.join(output_subdirectory, filename)
+                if path.exists(outfile):
+                    infile = outfile
+                else:
+                    infile = path.join(dirpath, filename)
+                with open(infile, 'r', encoding='utf-8') as fin:
+                    file_text = fin.read()
+                soup = BeautifulSoup(file_text, 'xml')
+                modified = modifier(soup, rel_name)
+                if modified:
+                    os.makedirs(output_subdirectory, exist_ok=True)
+                    with open(outfile, 'w', encoding='utf-8') as fout:
+                        outfile_text = soup.decode(formatter=custom_formatter)
+                        fout.write(outfile_text)
+                    main_logger.info('{0:8} {1}'.format(folder, text_name))
+              except (KeyError, ValueError) as exc:
+                fullname = path.join(dirpath, filename)
+                log_file_skipping(fullname)
+                log_error(fullname)
+                log_error(traceback.format_exc())
 
 
 
