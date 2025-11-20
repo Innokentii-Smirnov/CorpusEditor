@@ -58,7 +58,7 @@ with (open('Modified files.txt', 'w', encoding='utf-8') as modified_files,
         if folder != 'Backup':
             progress_bar.set_postfix_str(folder)
             output_subdirectory = dirpath.replace(input_directory, output_directory)
-            rel_path = dirpath.removeprefix(input_directory).removeprefix(os.sep)
+            rel_path = path.relpath(dirpath, input_directory)
             for filename in filenames:
                 text_name, ext = path.splitext(filename)
                 rel_name = path.join(rel_path, text_name)
