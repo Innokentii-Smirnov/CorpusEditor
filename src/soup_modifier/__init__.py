@@ -1,6 +1,9 @@
 from bs4 import BeautifulSoup, Tag
 from morph import Morph, MultiMorph
 from typing import Callable
+from logging import getLogger, INFO
+logger = getLogger(__name__)
+logger.setLevel(INFO)
 
 class SoupModifier:
     
@@ -13,7 +16,7 @@ class SoupModifier:
               changes[origin] = target
         self.changes = changes
 
-    def __call__(self, soup: BeautifulSoup, logging_function: Callable[[str], None], rel_name: str) -> bool:
+    def __call__(self, soup: BeautifulSoup, rel_name: str) -> bool:
         lang = 'hit'
         modified = False
         lnr = '[unknown]'
@@ -26,7 +29,7 @@ class SoupModifier:
                 if 'lg' in tag.attrs:
                     lang = tag['lg']
                 else:
-                    logging_function('Line {0} in {1} is not marked for language.\n'.format(lnr, rel_name))
+                    logger.warning('Line {0} in {1} is not marked for language.'.format(lnr, rel_name))
                     lang = 'Hur'
             elif tag.name == 'w' and lang == 'Hur':
                 if 'lg' in tag.attrs and tag['lg'] != 'Hur':
@@ -49,9 +52,9 @@ class SoupModifier:
                             repl_str = replacement.__str__()
                             tag[attr] = repl_str
                             if not modified:
-                                logging_function(rel_name + '\n')
+                                logger.info(rel_name)
                             modified = True
-                            logging_function(
-                                '\t{0:10} {1:45} {2}\n'.format(lnr, value, repl_str)
+                            logger.info(
+                                '\t{0:10} {1:45} {2}'.format(lnr, value, repl_str)
                             )
         return modified
