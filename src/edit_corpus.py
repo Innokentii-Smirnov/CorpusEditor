@@ -12,15 +12,11 @@ from formatter import CustomFormatter
 from bs4.dammit import EntitySubstitution
 custom_formatter = CustomFormatter(entity_substitution=EntitySubstitution.substitute_xml)
 
-from logging import getLogger, FileHandler, INFO
-soup_modifier_logger = getLogger('soup_modifier')
-soup_modifier_handler = FileHandler('Log.txt', 'w', encoding='utf-8')
-soup_modifier_logger.addHandler(soup_modifier_handler)
-
-main_logger = getLogger(__name__)
-main_logger.setLevel(INFO)
-main_handler = FileHandler('Modified files.txt', 'w', encoding='utf-8')
-main_logger.addHandler(main_handler)
+from logging import getLogger, INFO, FileHandler
+logger = getLogger(__name__)
+logger.setLevel(INFO)
+handler = FileHandler('Modified files.txt', 'w', encoding='utf-8')
+logger.addHandler(handler)
 
 SKIPPED_FILES = 'skipped_files.txt'
 LOG_NAME = 'error_log.txt'
@@ -84,7 +80,7 @@ for dirpath, dirnames, filenames in progress_bar:
                     with open(outfile, 'w', encoding='utf-8') as fout:
                         outfile_text = soup.decode(formatter=custom_formatter)
                         fout.write(outfile_text)
-                    main_logger.info('{0:8} {1}'.format(folder, text_name))
+                    logger.info('{0:8} {1}'.format(folder, text_name))
               except (KeyError, ValueError) as exc:
                 fullname = path.join(dirpath, filename)
                 log_file_skipping(fullname)

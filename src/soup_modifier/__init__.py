@@ -1,9 +1,11 @@
 from bs4 import BeautifulSoup, Tag
 from morph import Morph, MultiMorph
 from typing import Callable
-from logging import getLogger, INFO
+from logging import getLogger, INFO, FileHandler
 logger = getLogger(__name__)
 logger.setLevel(INFO)
+handler = FileHandler('Log.txt', 'w', encoding='utf-8')
+logger.addHandler(handler)
 
 class SoupModifier:
     
