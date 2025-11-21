@@ -5,7 +5,6 @@ import shutil
 from tqdm.auto import tqdm
 from bs4 import BeautifulSoup
 from soup_modifier import SoupModifier
-import traceback
 from os.path import exists
 from os import remove
 from formatter import CustomFormatter
@@ -21,19 +20,11 @@ logger.addHandler(handler)
 SKIPPED_FILES = 'skipped_files.txt'
 LOG_NAME = 'error_log.txt'
 
-def log_file_skipping(fullname: str) -> None:
-  with open(SKIPPED_FILES, 'a', encoding='utf-8') as skipped_files:
-    print(fullname, file=skipped_files)
+file_skipping_logger = getLogger('file_skipping_logger')
+logger.addHandler(FileHandler(SKIPPED_FILES, 'w', encoding='utf-8'))
 
-def log_error(message: str) -> None:
-  with open(LOG_NAME, 'a', encoding='utf-8') as error_log:
-    print(message, file=error_log)
-
-if exists(SKIPPED_FILES):
-  remove(SKIPPED_FILES)
-
-if exists(LOG_NAME):
-  remove(LOG_NAME)
+error_logger = getLogger('error_logger')
+logger.addHandler(FileHandler(LOG_NAME, 'w', encoding='utf-8'))
 
 with open('config.json', 'r', encoding='utf-8') as fin:
     config = json.load(fin)
@@ -81,11 +72,10 @@ for dirpath, dirnames, filenames in progress_bar:
                         outfile_text = soup.decode(formatter=custom_formatter)
                         fout.write(outfile_text)
                     logger.info('{0:8} {1}'.format(folder, text_name))
-              except (KeyError, ValueError) as exc:
+              except (KeyError, ValueError):
                 fullname = path.join(dirpath, filename)
-                log_file_skipping(fullname)
-                log_error(fullname)
-                log_error(traceback.format_exc())
+                file_skipping_logger.error(fullname)
+                error_logger.exception(fullname)
 
 
 
