@@ -261,3 +261,14 @@ def parseMorphTags(string: str) -> dict[str, str]:
             raise ValueError(string)
         morph_tags[key] = value
     return morph_tags
+
+if __name__ == '__main__':
+  print('Test started')
+  m1 = Morph.parse('nāli @ Rehbock @ .ABS @ noun @ ')
+  print(m1)
+  m2 = Morph.parse('nāli@Rehbock@{ a → .ABS}@noun@')
+  print(m2)
+  print(m1 == m2)
+  print(m1.__hash__())
+  print(m2.__hash__())
+  print(m2 == m1)
