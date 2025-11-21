@@ -1,4 +1,5 @@
 __pycache__
+*.log
 config.json
 error_log.txt
 skipped_files.txt
