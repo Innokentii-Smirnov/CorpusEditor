@@ -6,6 +6,8 @@ logger = getLogger(__name__)
 logger.setLevel(INFO)
 handler = FileHandler('Log.txt', 'w', encoding='utf-8')
 logger.addHandler(handler)
+morph_logger = getLogger('morphological_analysis')
+morph_logger.addHandler(FileHandler('{0}.log'.format(morph_logger.name), 'w', encoding='utf-8'))
 
 class SoupModifier:
     
@@ -46,7 +48,9 @@ class SoupModifier:
                           raise ValueError(
                             'Incorrect morphological analysis:\n{0}\non line {1} in {2}'.format(value, lnr, rel_name)
                           )
-                        if morph in self.changes:
+                        if morph is None:
+                          morph_logger.error('The following morphological analysis could not be parsed:\n%s on line %s in %s', value, lnr, rel_name)
+                        elif morph in self.changes:
                             replacement = self.changes[morph]
                             if isinstance(morph, MultiMorph):
                                 index = next(iter(morph.morph_tags))
