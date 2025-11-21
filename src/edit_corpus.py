@@ -50,8 +50,8 @@ for dirpath, dirnames, filenames in progress_bar:
     _, folder = path.split(dirpath)
     if folder != 'Backup':
         progress_bar.set_postfix_str(folder)
-        output_subdirectory = dirpath.replace(input_directory, output_directory)
         rel_path = path.relpath(dirpath, input_directory)
+        output_subdirectory = path.join(output_directory, rel_path)
         for filename in filenames:
             text_name, ext = path.splitext(filename)
             rel_name = path.join(rel_path, text_name)
