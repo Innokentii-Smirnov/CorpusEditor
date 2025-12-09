@@ -76,6 +76,11 @@ for dirpath, dirnames, filenames in progress_bar:
                 fullname = path.join(dirpath, filename)
                 file_skipping_logger.error(fullname)
                 error_logger.exception(fullname)
+              except (PermissionError):
+                fullname = path.join(dirpath, filename)
+                file_skipping_logger.error(fullname)
+                error_logger.exception(fullname)
+                print('The file {0} is locked and could not be edited.'.format(fullname))
 
 
 
