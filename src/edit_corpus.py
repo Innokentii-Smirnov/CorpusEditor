@@ -42,7 +42,7 @@ if not path.exists(input_directory):
 os.makedirs(output_directory, exist_ok=True)
 with open(changes_file, 'r', encoding='utf-8') as fin:
     changesJson = json.load(fin)
-changes = changesJson['changes']
+changes: dict[str, list[str]] = changesJson['changes']
 modifier = SoupModifier(changes)
 walk = list(os.walk(config['inputDirectory']))
 progress_bar = tqdm(walk)

@@ -11,13 +11,17 @@ morph_logger.addHandler(FileHandler('{0}.log'.format(morph_logger.name), 'w', en
 
 class SoupModifier:
     
-    def __init__(self, replacements: dict[str, str]):
-        changes = dict[Morph, Morph]()
-        for key, value in replacements.items():
+    def __init__(self, replacements: dict[str, list[str]]):
+        changes = dict[Morph, list[Morph]]()
+        for key, values in replacements.items():
             origin = Morph.parse(key)
-            target = Morph.parse(value)
-            if origin is not None and target is not None:
-              changes[origin] = target
+            targets = list[Morph]()
+            for value in values:
+              target = Morph.parse(value)
+              if target is not None:
+                targets.append(target)
+            if origin is not None and len(targets) > 0:
+              changes[origin] = targets
         self.changes = changes
 
     def __call__(self, soup: BeautifulSoup, rel_name: str) -> bool:
@@ -54,7 +58,7 @@ class SoupModifier:
                         if morph is None:
                           morph_logger.error('The following morphological analysis could not be parsed:\n%s on line %s in %s', value, lnr, rel_name)
                         elif morph in self.changes:
-                            replacement = self.changes[morph]
+                            replacement = self.changes[morph][0]
                             if isinstance(morph, MultiMorph):
                                 index = next(iter(morph.morph_tags))
                                 replacement = replacement.to_multi(index)
