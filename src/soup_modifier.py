@@ -26,11 +26,11 @@ class SoupModifier:
         lnr = '[unknown]'
         for tag in soup(['lb', 'w']):
             if tag.name == 'lb':
-                if 'lnr' in tag.attrs:
+                if 'lnr' in tag.attrs and isinstance(tag['lnr'], str):
                   lnr = tag['lnr']
                 else:
                   raise ValueError('The next line after {0} in {1} is not numbered'.format(lnr, rel_name))
-                if 'lg' in tag.attrs:
+                if 'lg' in tag.attrs and isinstance(tag['lg'], str):
                     lang = tag['lg']
                 else:
                     logger.warning('Line {0} in {1} is not marked for language.'.format(lnr, rel_name))
@@ -43,7 +43,10 @@ class SoupModifier:
                 for attr, value in tag.attrs.items():
                     if attr.startswith('mrp') and attr != 'mrp0sel':
                         try:
-                          morph = Morph.parse(value)
+                          if isinstance(value, str):
+                            morph = Morph.parse(value)
+                          else:
+                            raise ValueError('The mrp attribute should have a single value.')
                         except ValueError:
                           raise ValueError(
                             'Incorrect morphological analysis:\n{0}\non line {1} in {2}'.format(value, lnr, rel_name)
