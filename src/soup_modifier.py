@@ -53,6 +53,11 @@ class SoupModifier:
                                 free_index = current_index + 1
                 for attr, value in list(tag.attrs.items()):
                     if attr.startswith('mrp') and attr != 'mrp0sel':
+                        index_str = attr.removeprefix('mrp')
+                        if index_str.isdigit():
+                          current_index = int(index_str)
+                        else:
+                          continue
                         try:
                           if isinstance(value, str):
                             morph = Morph.parse(value)
@@ -78,10 +83,36 @@ class SoupModifier:
                             logger.info('\t{0}'.format(lnr))
                             logger.info('\t\t{0} =>'.format(value))
                             logger.info('\t\t{0}'.format(repl_str))
+                            if 'mrp0sel' in tag.attrs:
+                              mrp0sel = tag.attrs['mrp0sel']
+                              assert isinstance(mrp0sel, str)
+                            else:
+                              mrp0sel = ''
+                            selections = mrp0sel.split()
+                            selected_letters = set[str]()
+                            if isinstance(morph, MultiMorph) and isinstance(replacement, MultiMorph):
+                              removed_letters = set(morph.morph_tags) - set(replacement.morph_tags)
+                              for removed_letter in removed_letters:
+                                complete_index = str(current_index) + removed_letter
+                                if complete_index in selections:
+                                  selected_letters.add(removed_letter)
+                                  selections.remove(complete_index)
+                            else:
+                              removed_letters = set[str]()
                             for replacement in replacements[1:]:
-                                attr = 'mrp' + str(free_index)
-                                repl_str = replacement.__str__()
-                                tag[attr] = repl_str
-                                free_index += 1
-                                logger.info('\t\t{0}'.format(repl_str))
+                              attr = 'mrp' + str(free_index)
+                              repl_str = replacement.__str__()
+                              tag[attr] = repl_str
+                              logger.info('\t\t{0}'.format(repl_str))
+                              if isinstance(morph, MultiMorph) and isinstance(replacement, MultiMorph):
+                                current_letters = set(replacement.morph_tags)
+                                for letter in sorted(current_letters & selected_letters):
+                                  complete_index = str(free_index) + letter
+                                  selections.append(complete_index)
+                              free_index += 1
+                            if selections != mrp0sel.split():
+                              new_mrp0sel = ''.join(selections)
+                              if len(new_mrp0sel) > 0:
+                                new_mrp0sel = ' ' + new_mrp0sel
+                              tag.attrs['mrp0sel'] = new_mrp0sel
         return modified
