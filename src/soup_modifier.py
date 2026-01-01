@@ -96,7 +96,7 @@ def update_mrp0sel_attr(tag: Tag, selections: list[str]) -> None:
   representing the given list of selections.
   """
   if selections != get_selections(tag):
-    new_mrp0sel = ''.join(selections)
+    new_mrp0sel = ' '.join(selections)
     if len(new_mrp0sel) > 0:
       new_mrp0sel = ' ' + new_mrp0sel
     tag.attrs['mrp0sel'] = new_mrp0sel
