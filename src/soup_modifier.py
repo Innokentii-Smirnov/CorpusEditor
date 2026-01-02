@@ -9,6 +9,12 @@ logger.addHandler(handler)
 morph_logger = getLogger('morphological_analysis')
 morph_logger.addHandler(FileHandler('{0}.log'.format(morph_logger.name), 'w', encoding='utf-8'))
 
+def get_word_language(line_language: str, tag: Tag) -> str:
+  if 'lg' in tag.attrs and isinstance(tag['lg'], str):
+    return tag['lg']
+  else:
+    return line_language
+
 def get_free_index(tag: Tag) -> int:
   """ For a given XML tag of a word (w),
   determine the morphological analysis with the highest number
@@ -172,8 +178,7 @@ class SoupModifier:
                 else:
                     logger.warning('Line {0} in {1} is not marked for language.'.format(lnr, rel_name))
                     lang = 'Hur'
-            elif tag.name == 'w' and (lang == 'Hur' or
-                                      'lg' in tag.attrs and tag['lg'] == 'Hur'):
+            elif tag.name == 'w' and get_word_language(lang, tag) == 'Hur':
                 if 'mrpnan' in tag.attrs:
                     del tag.attrs['mrpnan']
                 free_index = get_free_index(tag)
