@@ -9,6 +9,8 @@ logger.addHandler(handler)
 morph_logger = getLogger('morphological_analysis')
 morph_logger.addHandler(FileHandler('{0}.log'.format(morph_logger.name), 'w', encoding='utf-8'))
 
+mrpNaN = 'mrpNaN'
+
 def get_word_language(line_language: str, tag: Tag) -> str:
   if 'lg' in tag.attrs and isinstance(tag['lg'], str):
     return tag['lg']
@@ -179,8 +181,8 @@ class SoupModifier:
                     logger.warning('Line {0} in {1} is not marked for language.'.format(lnr, rel_name))
                     lang = 'Hur'
             elif tag.name == 'w' and get_word_language(lang, tag) == 'Hur':
-                if 'mrpnan' in tag.attrs:
-                    del tag.attrs['mrpnan']
+                if mrpNaN in tag.attrs:
+                    del tag.attrs[mrpNaN]
                 free_index = get_free_index(tag)
                 for attr, value in list(tag.attrs.items()):
                     if attr.startswith('mrp') and attr != 'mrp0sel':
