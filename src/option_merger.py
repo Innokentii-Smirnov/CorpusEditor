@@ -20,14 +20,14 @@ def merge_identical_options(index: str, morph: MultiMorph,
       old_complete_index = index + letter
       if old_complete_index in selections:
         selections.remove(old_complete_index)
-      identical_option_letter = first_true(
-        morph.morph_tags,
-        pred=lambda letter: morph.morph_tags[letter] == option
-      )
-      if identical_option_letter is not None:
-        new_complete_index = index + identical_option_letter
-        if new_complete_index not in selections:
-          selections.append(new_complete_index)
+        identical_option_letter = first_true(
+          morph.morph_tags,
+          pred=lambda letter: morph.morph_tags[letter] == option
+        )
+        if identical_option_letter is not None:
+          new_complete_index = index + identical_option_letter
+          if new_complete_index not in selections:
+            selections.append(new_complete_index)
     else:
       new_options[letter] = option
   return MultiMorph(morph.segmentation, morph.translation,
