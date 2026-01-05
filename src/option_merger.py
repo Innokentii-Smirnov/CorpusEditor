@@ -1,6 +1,13 @@
 from morph import Morph, MultiMorph
 from more_itertools import first_true
 
+def merge_identical_options_if_multi(index: str, morph: Morph,
+                                     selections: list[str]) -> Morph:
+  if isinstance(morph, MultiMorph):
+    return merge_identical_options(index, morph, selections)
+  else:
+    return morph
+
 def merge_identical_options(index: str, morph: MultiMorph,
                             selections: list[str]) -> MultiMorph:
   """

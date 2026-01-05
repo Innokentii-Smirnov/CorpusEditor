@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup, Tag
 from morph import Morph, MultiMorph
 from typing import Callable
 from logging import getLogger, INFO, FileHandler
+from option_merger import merge_identical_options_if_multi
 logger = getLogger(__name__)
 logger.setLevel(INFO)
 handler = FileHandler('Log.txt', 'w', encoding='utf-8')
@@ -126,7 +127,11 @@ def perform_replacement(tag: Tag, attr: str, morph: Morph, replacements: list[Mo
   if isinstance(morph, MultiMorph):
       index = next(iter(morph.morph_tags))
       replacement = replacement.to_multi(index)
-  repl_str = replacement.__str__()
+  selections = get_selections(tag)
+  repl_with_merged_options = merge_identical_options_if_multi(
+    str(current_index), replacement, selections
+  )
+  repl_str = repl_with_merged_options.__str__()
   tag[attr] = repl_str
   if not modified:
       logger.info(rel_name)
@@ -134,13 +139,13 @@ def perform_replacement(tag: Tag, attr: str, morph: Morph, replacements: list[Mo
   logger.info('\t{0}'.format(lnr))
   logger.info('\t\t{0} =>'.format(value))
   logger.info('\t\t{0}'.format(repl_str))
-  selections = get_selections(tag)
   selected_letters = unselect_split_away_options(
     current_index, morph, replacement, selections
   )
   for replacement in replacements[1:]:
+    repl_with_merged_options = merge_identical_options_if_multi(str(free_index), replacement, selections)
     attr = 'mrp' + str(free_index)
-    repl_str = replacement.__str__()
+    repl_str = repl_with_merged_options.__str__()
     tag[attr] = repl_str
     logger.info('\t\t{0}'.format(repl_str))
     select_added_analysis_options(
