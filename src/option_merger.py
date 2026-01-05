@@ -50,6 +50,18 @@ if __name__ == '__main__':
     ['nav-an-ed-a @ weiden @ { a → CAUS-FUT-3A.SG} { b → CAUS-FUT-3A.SG} @ verb @ ',
      'nav-an-ed-a @ weiden @ { a  → CAUS-FUT-3A.SG} @ verb @ ',
      '2', ' 1a 2b 3a', ' 1a 3a 2a'],
+    # Hypothetical cases: only first selected
+    ['tav-ud-o @ u.B. @ { a → NEG-MOD.PAT} { b → NEG-MOD.PAT} @ verb @ ',
+     'tav-ud-o @ u.B. @ { a  → NEG-MOD.PAT} @ verb @ ', '1', ' 1a', ' 1a'],
+    ['nav-an-ed-a @ weiden @ { a → CAUS-FUT-3A.SG} { b → CAUS-FUT-3A.SG} @ verb @ ',
+     'nav-an-ed-a @ weiden @ { a  → CAUS-FUT-3A.SG} @ verb @ ',
+     '2', ' 1a 2a 3a', ' 1a 2a 3a'],
+    # Hypothetical cases: neither selected
+    ['tav-ud-o @ u.B. @ { a → NEG-MOD.PAT} { b → NEG-MOD.PAT} @ verb @ ',
+     'tav-ud-o @ u.B. @ { a  → NEG-MOD.PAT} @ verb @ ', '1', '', ''],
+    ['nav-an-ed-a @ weiden @ { a → CAUS-FUT-3A.SG} { b → CAUS-FUT-3A.SG} @ verb @ ',
+     'nav-an-ed-a @ weiden @ { a  → CAUS-FUT-3A.SG} @ verb @ ',
+     '2', ' 1a 3a', ' 1a 3a']
   ]
   for origin, target, index, str_selections, expected_selections in data:
     print(origin)
