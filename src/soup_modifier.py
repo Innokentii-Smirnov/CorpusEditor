@@ -157,9 +157,13 @@ def perform_replacement(tag: Tag, attr: str, morph: Morph, replacements: list[Mo
 
 class SoupModifier:
     
-    def __init__(self, replacements: dict[str, list[str]]):
+    def __init__(self, replacements: dict[str, list[str]] | dict[str, str]):
         changes = dict[Morph, list[Morph]]()
-        for key, values in replacements.items():
+        for key, val in replacements.items():
+            if isinstance(val, str):
+              values = [val]
+            else:
+              values = val
             origin = Morph.parse(key)
             targets = list[Morph]()
             for value in values:
