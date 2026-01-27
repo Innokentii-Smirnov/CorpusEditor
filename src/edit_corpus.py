@@ -19,12 +19,13 @@ logger.addHandler(handler)
 
 SKIPPED_FILES = 'skipped_files.txt'
 LOG_NAME = 'error_log.txt'
+TRANSCRIPTIONS_CONFIG_KEY = 'transcriptions'
 
 file_skipping_logger = getLogger('file_skipping_logger')
-logger.addHandler(FileHandler(SKIPPED_FILES, 'w', encoding='utf-8'))
+file_skipping_logger.addHandler(FileHandler(SKIPPED_FILES, 'w', encoding='utf-8'))
 
 error_logger = getLogger('error_logger')
-logger.addHandler(FileHandler(LOG_NAME, 'w', encoding='utf-8'))
+error_logger.addHandler(FileHandler(LOG_NAME, 'w', encoding='utf-8'))
 
 with open('config.json', 'r', encoding='utf-8') as fin:
     config = json.load(fin)
@@ -42,8 +43,17 @@ if not path.exists(input_directory):
 os.makedirs(output_directory, exist_ok=True)
 with open(changes_file, 'r', encoding='utf-8') as fin:
     changesJson = json.load(fin)
+if TRANSCRIPTIONS_CONFIG_KEY in config:
+  transcriptions_file_name = config[TRANSCRIPTIONS_CONFIG_KEY]
+  if not path.exists(transcriptions_file_name):
+    print('Transcriptions file not found: ' + transcriptions_file_name)
+    exit()
+  with open(transcriptions_file_name, 'r', encoding='utf-8') as fin:
+    transcriptions = json.load(fin)
+else:
+  transcriptions = None
 changes: dict[str, list[str]] | dict[str, str] = changesJson['changes']
-modifier = SoupModifier(changes)
+modifier = SoupModifier(changes, transcriptions)
 walk = list(os.walk(config['inputDirectory']))
 progress_bar = tqdm(walk)
 for dirpath, dirnames, filenames in progress_bar:

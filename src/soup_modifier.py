@@ -11,6 +11,7 @@ morph_logger = getLogger('morphological_analysis')
 morph_logger.addHandler(FileHandler('{0}.log'.format(morph_logger.name), 'w', encoding='utf-8'))
 
 mrpNaN = 'mrpNaN'
+TRANSCRIPTION_ATTRIBUTE = 'trans'
 
 def get_word_language(line_language: str, tag: Tag) -> str:
   if 'lg' in tag.attrs and isinstance(tag['lg'], str):
@@ -157,7 +158,8 @@ def perform_replacement(tag: Tag, attr: str, morph: Morph, replacements: list[Mo
 
 class SoupModifier:
     
-    def __init__(self, replacements: dict[str, list[str]] | dict[str, str]):
+    def __init__(self, replacements: dict[str, list[str]] | dict[str, str],
+                 transcriptions: dict[str, str] | None):
         changes = dict[Morph, list[Morph]]()
         for key, val in replacements.items():
             if isinstance(val, str):
@@ -173,6 +175,7 @@ class SoupModifier:
             if origin is not None and len(targets) > 0:
               changes[origin] = targets
         self.changes = changes
+        self.transcriptions = transcriptions
 
     def __call__(self, soup: BeautifulSoup, rel_name: str) -> bool:
         lang = 'hit'
@@ -212,4 +215,26 @@ class SoupModifier:
                               tag, attr, morph, replacements, free_index, modified,
                               rel_name, lnr, value
                             )
+                if self.transcriptions is not None:
+                  transliteration = tag.decode_contents()
+                  xml_word = '<w>' + transliteration + '</w>'
+                  if xml_word in self.transcriptions:
+                    new_transcription = self.transcriptions[xml_word]
+                    if not modified:
+                      logger.info(rel_name)
+                    modified = True
+                    if TRANSCRIPTION_ATTRIBUTE in tag.attrs:
+                      old_transcription = tag.attrs[TRANSCRIPTION_ATTRIBUTE]
+                      if new_transcription != old_transcription:
+                        tag.attrs[TRANSCRIPTION_ATTRIBUTE] = new_transcription
+                        logger.info('\t{0}'.format(lnr))
+                        logger.info('\t\t{0}'.format(transliteration))
+                        logger.info('\t\t{0} => {1}'.format(old_transcription, new_transcription))
+                    else:
+                      tag.attrs[TRANSCRIPTION_ATTRIBUTE] = new_transcription
+                      logger.info('\t{0}'.format(lnr))
+                      logger.info('\t\t{0}'.format(transliteration))
+                      logger.info('\t\t{0}'.format(new_transcription))
+                  else:
+                    logger.error('\tNo transcription provided for {0}'.format(transliteration))
         return modified
