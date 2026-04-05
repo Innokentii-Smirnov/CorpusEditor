@@ -210,9 +210,9 @@ class MultiMorph(Morph):
     def morph_info(self) -> str:
         elements = list[str]()
         for key, value in self.morph_tags.items():
-            element = '{ ' + key + '  → ' + value + '}'
+            element = '{ ' + key + ' → ' + value + '}'
             elements.append(element)
-        return ''.join(elements)
+        return ' '.join(elements)
     
     @property
     def is_singletone(self) -> bool:
